@@ -15,9 +15,9 @@ don't forget to add font from the package to your app's pubspec.yaml
 
 ```yaml
 fonts:
-    - family: sfsymbols
+    - family: sficons
       fonts:
-          - asset: packages/flutter_sficon/fonts/sfsymbols.ttf
+          - asset: packages/flutter_sficon/fonts/sficons.ttf
 ```
 
 ## How to use
