@@ -1,9 +1,9 @@
-library flutter_sf_symbols;
+library flutter_sficon;
 
 import 'package:flutter/widgets.dart';
 import './icons.dart';
 
-class SFSymbol extends StatelessWidget {
+class SFIcon extends StatelessWidget {
   final String name;
   final double? size;
   final Color? color;
@@ -15,7 +15,7 @@ class SFSymbol extends StatelessWidget {
   final String? semanticLabel;
   final TextDirection? textDirection;
 
-  const SFSymbol(
+  const SFIcon(
     this.name, {
     Key? key,
     this.size,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sf_symbols/flutter_sf_symbols.dart';
+import 'package:flutter_sficon/flutter_sficon.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            SFSymbol(
+            SFIcon(
               'heart.fill',
               size: 100,
               weight: 700,
