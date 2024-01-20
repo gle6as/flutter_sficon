@@ -16,7 +16,7 @@ don't forget to add font from the package to your app's pubspec.yaml
 ```yaml
 fonts:
     - family: sfsymbols
-    fonts:
+      fonts:
         - asset: packages/flutter_sf_symbols/fonts/sfsymbols.ttf
 ```
 
