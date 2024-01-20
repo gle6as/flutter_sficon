@@ -1,7 +1,15 @@
 name: flutter_sficon
 description: 'Cross-platform Flutter plugin for rendering SF Symbols.'
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/gle6as/flutter_sficon
+
+platforms:
+    android:
+    ios:
+    linux:
+    macos:
+    web:
+    windows:
 
 environment:
     sdk: '>=3.2.3 <4.0.0'
