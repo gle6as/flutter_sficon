@@ -1,7 +1,7 @@
 # Flutter SFIcon
 
-Render SF Symbols on both platforms just like regular `Icon` widget. Supports weight and latest SF Symbols version 5.1
-Includes SF Pro font, which is tree shakable.
+Render SF Symbols on both platforms simuliar to regular `Icon` widget. Supports weight and latest SF Symbols version 5.1
+Icons are tree shakable. Keep in mind, that `SFIcon` widget is based on `Text`.
 
 ## Install
 
@@ -11,27 +11,27 @@ add flutter_sf_symbols into your pubspec.yaml
 flutter pub add flutter_sficon
 ```
 
-don't forget to add font from the package to your app's pubspec.yaml
-
-```yaml
-fonts:
-    - family: sficons
-      fonts:
-          - asset: packages/flutter_sficon/fonts/sficons.ttf
-```
-
 ## How to use
+
+For correct use of flutter tree shaking all icons stored inside `SFIcons` class as static constants.
+Naming convention for retrieving SF symbol is as follows:
+
+1. SF Symbol name is prefixed with 'sf\_'.
+2. Dots are replaced with underscores.
+   Examples:
+   — SF Symbol 0.circle is named as sf_0_circle.
+   — SF Symbol heart.fill is named as sf_heart_fill.
 
 ```dart
 import 'package:flutter_sficon/flutter_sficon.dart';
 
 // use SFSymbol instead of regular Icon widget
 const SFIcon(
-    'lasso.badge.sparkles', // use symbol name from SF Symbols app
-    size: 40, // control size of the symbol
-    weight: 600, // control weight of the symbol, ranging from 0 to 1000
-    color: Colors.red, // color your symbol
-),
+    SFIcons.sf_heart_fill,
+    fontSize: 40, // fontSize instead of size
+    fontWeight: FontWeight.bold, // fontWeight instead of weight
+    color: Colors.red,
+);
 ```
 
 ## IMPORTANT

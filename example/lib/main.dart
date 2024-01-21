@@ -43,9 +43,9 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             SFIcon(
-              'heart.fill',
-              size: 100,
-              weight: 700,
+              SFIcons.sf_heart_fill,
+              fontSize: 40,
+              fontWeight: FontWeight.bold,
               color: Colors.red,
             ),
           ],
