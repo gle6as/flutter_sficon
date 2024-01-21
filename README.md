@@ -18,9 +18,10 @@ Naming convention for retrieving SF symbol is as follows:
 
 1. SF Symbol name is prefixed with 'sf\_'.
 2. Dots are replaced with underscores.
-   Examples:
-   — SF Symbol 0.circle is named as sf_0_circle.
-   — SF Symbol heart.fill is named as sf_heart_fill.
+
+    Examples:
+    — SF Symbol 0.circle is named as sf_0_circle.
+    — SF Symbol heart.fill is named as sf_heart_fill.
 
 ```dart
 import 'package:flutter_sficon/flutter_sficon.dart';
