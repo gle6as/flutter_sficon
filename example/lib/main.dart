@@ -38,17 +38,59 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: const Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            SFIcon(
-              SFIcons.sf_heart_fill,
-              fontSize: 40,
-              fontWeight: FontWeight.bold,
-              color: Colors.red,
-            ),
-          ],
+      body: Center(
+        child: IconTheme(
+          data: IconThemeData(color: Theme.of(context).colorScheme.primary),
+          child: const Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              SFIcon(
+                SFIcons.sf_chevron_backward,
+                fontSize: 40,
+                fontWeight: FontWeight.w100,
+              ),
+              SFIcon(
+                SFIcons.sf_chevron_backward,
+                fontSize: 40,
+                fontWeight: FontWeight.w200,
+              ),
+              SFIcon(
+                SFIcons.sf_chevron_backward,
+                fontSize: 40,
+                fontWeight: FontWeight.w300,
+              ),
+              SFIcon(
+                SFIcons.sf_chevron_backward,
+                fontSize: 40,
+                fontWeight: FontWeight.w400,
+              ),
+              SFIcon(
+                SFIcons.sf_chevron_backward,
+                fontSize: 40,
+                fontWeight: FontWeight.w500,
+              ),
+              SFIcon(
+                SFIcons.sf_chevron_backward,
+                fontSize: 40,
+                fontWeight: FontWeight.w600,
+              ),
+              SFIcon(
+                SFIcons.sf_chevron_backward,
+                fontSize: 40,
+                fontWeight: FontWeight.w700,
+              ),
+              SFIcon(
+                SFIcons.sf_chevron_backward,
+                fontSize: 40,
+                fontWeight: FontWeight.w800,
+              ),
+              SFIcon(
+                SFIcons.sf_chevron_backward,
+                fontSize: 40,
+                fontWeight: FontWeight.w900,
+              ),
+            ],
+          ),
         ),
       ),
     );
