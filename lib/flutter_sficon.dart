@@ -1,5 +1,7 @@
 library flutter_sficon;
 
+import 'dart:ui';
+
 import 'package:flutter/widgets.dart';
 
 /// SFIcon is a widget that displays an SF Symbol.
@@ -12,7 +14,7 @@ class SFIcon extends StatelessWidget {
     Key? key,
     this.fontSize = 24,
     this.fontWeight = FontWeight.normal,
-    this.color = const Color(0xFF000000),
+    this.color,
     this.shadows,
     this.textDirection,
     this.semanticsLabel,
@@ -28,16 +30,31 @@ class SFIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final iconTheme = IconTheme.of(context);
+    final textDirection = this.textDirection ?? Directionality.of(context);
+
+    final iconWeight = fontWeight?.value.toDouble() ?? iconTheme.weight;
+
+    final iconOpacity = iconTheme.opacity ?? 1.0;
+    var iconColor = color ?? iconTheme.color!;
+    if (iconOpacity != 1.0) {
+      iconColor = iconColor.withOpacity(iconColor.opacity * iconOpacity);
+    }
+
     return Text(
       String.fromCharCode(icon.codePoint),
       textDirection: textDirection,
       semanticsLabel: semanticsLabel,
       style: TextStyle(
+        fontVariations: <FontVariation>[
+          if (iconWeight != null) FontVariation('wght', iconWeight),
+        ],
+        inherit: false,
         fontFamily: 'sficons',
         package: 'flutter_sficon',
         fontSize: fontSize,
         fontWeight: fontWeight,
-        color: color,
+        color: iconColor,
         shadows: shadows,
       ),
     );
