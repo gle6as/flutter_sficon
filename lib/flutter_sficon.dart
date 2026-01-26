@@ -2,7 +2,7 @@ library flutter_sficon;
 
 import 'package:flutter/widgets.dart';
 
-/// SFIcon is a widget that displays an SF Symbol v6.
+/// SFIcon is a widget that displays an SF Symbol v7.1
 /// It is a wrapper around Text widget.
 /// It takes an IconData as input and displays the corresponding SF Symbol.
 /// Optional parameters: fontSize, fontWeight, color, shadows, textDirection and semanticsLabel.
@@ -108,6 +108,10 @@ class SFIcons {
   static const IconData sf_1_brakesignal =
       IconData(0x1017C4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 1.calendar
+  static const IconData sf_1_calendar =
+      IconData(0x103326, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 1.circle
   static const IconData sf_1_circle =
       IconData(0x10003A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -151,6 +155,10 @@ class SFIcons {
   /// IconData for SF Symbol 2.brakesignal
   static const IconData sf_2_brakesignal =
       IconData(0x1017C5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol 2.calendar
+  static const IconData sf_2_calendar =
+      IconData(0x103327, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol 2.circle
   static const IconData sf_2_circle =
@@ -199,6 +207,10 @@ class SFIcons {
   /// IconData for SF Symbol 2h.circle.fill
   static const IconData sf_2h_circle_fill =
       IconData(0x10195F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol 3.calendar
+  static const IconData sf_3_calendar =
+      IconData(0x103328, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol 3.circle
   static const IconData sf_3_circle =
@@ -251,6 +263,10 @@ class SFIcons {
   /// IconData for SF Symbol 4.alt.square.fill
   static const IconData sf_4_alt_square_fill =
       IconData(0x10061A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol 4.calendar
+  static const IconData sf_4_calendar =
+      IconData(0x103329, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol 4.circle
   static const IconData sf_4_circle =
@@ -340,6 +356,10 @@ class SFIcons {
   static const IconData sf_5_arrow_trianglehead_counterclockwise =
       IconData(0x100DB1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 5.calendar
+  static const IconData sf_5_calendar =
+      IconData(0x10332A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 5.circle
   static const IconData sf_5_circle =
       IconData(0x100042, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -392,6 +412,10 @@ class SFIcons {
   static const IconData sf_6_alt_square_fill =
       IconData(0x100476, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 6.calendar
+  static const IconData sf_6_calendar =
+      IconData(0x10332B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 6.circle
   static const IconData sf_6_circle =
       IconData(0x100044, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -428,6 +452,10 @@ class SFIcons {
   static const IconData sf_06_square_fill =
       IconData(0x10054E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 7.calendar
+  static const IconData sf_7_calendar =
+      IconData(0x10332C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 7.circle
   static const IconData sf_7_circle =
       IconData(0x100046, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -463,6 +491,10 @@ class SFIcons {
   /// IconData for SF Symbol 07.square.fill
   static const IconData sf_07_square_fill =
       IconData(0x10054F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol 8.calendar
+  static const IconData sf_8_calendar =
+      IconData(0x10332D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol 8.circle
   static const IconData sf_8_circle =
@@ -516,6 +548,10 @@ class SFIcons {
   static const IconData sf_9_alt_square_fill =
       IconData(0x100478, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 9.calendar
+  static const IconData sf_9_calendar =
+      IconData(0x10332E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 9.circle
   static const IconData sf_9_circle =
       IconData(0x10004A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -560,6 +596,10 @@ class SFIcons {
   static const IconData sf_10_arrow_trianglehead_counterclockwise =
       IconData(0x100382, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 10.calendar
+  static const IconData sf_10_calendar =
+      IconData(0x10332F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 10.circle
   static const IconData sf_10_circle =
       IconData(0x1004F5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -579,6 +619,10 @@ class SFIcons {
   /// IconData for SF Symbol 10.square.fill
   static const IconData sf_10_square_fill =
       IconData(0x100552, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol 11.calendar
+  static const IconData sf_11_calendar =
+      IconData(0x103330, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol 11.circle
   static const IconData sf_11_circle =
@@ -600,6 +644,10 @@ class SFIcons {
   static const IconData sf_11_square_fill =
       IconData(0x100553, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 12.calendar
+  static const IconData sf_12_calendar =
+      IconData(0x103331, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 12.circle
   static const IconData sf_12_circle =
       IconData(0x1004F7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -620,6 +668,10 @@ class SFIcons {
   static const IconData sf_12_square_fill =
       IconData(0x100554, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 13.calendar
+  static const IconData sf_13_calendar =
+      IconData(0x103332, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 13.circle
   static const IconData sf_13_circle =
       IconData(0x1004F8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -635,6 +687,10 @@ class SFIcons {
   /// IconData for SF Symbol 13.square.fill
   static const IconData sf_13_square_fill =
       IconData(0x100555, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol 14.calendar
+  static const IconData sf_14_calendar =
+      IconData(0x103333, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol 14.circle
   static const IconData sf_14_circle =
@@ -660,6 +716,10 @@ class SFIcons {
   static const IconData sf_15_arrow_trianglehead_counterclockwise =
       IconData(0x100384, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 15.calendar
+  static const IconData sf_15_calendar =
+      IconData(0x103334, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 15.circle
   static const IconData sf_15_circle =
       IconData(0x1004FA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -675,6 +735,10 @@ class SFIcons {
   /// IconData for SF Symbol 15.square.fill
   static const IconData sf_15_square_fill =
       IconData(0x100557, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol 16.calendar
+  static const IconData sf_16_calendar =
+      IconData(0x103335, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol 16.circle
   static const IconData sf_16_circle =
@@ -692,6 +756,10 @@ class SFIcons {
   static const IconData sf_16_square_fill =
       IconData(0x100558, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 17.calendar
+  static const IconData sf_17_calendar =
+      IconData(0x103336, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 17.circle
   static const IconData sf_17_circle =
       IconData(0x1004FC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -707,6 +775,10 @@ class SFIcons {
   /// IconData for SF Symbol 17.square.fill
   static const IconData sf_17_square_fill =
       IconData(0x100559, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol 18.calendar
+  static const IconData sf_18_calendar =
+      IconData(0x103337, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol 18.circle
   static const IconData sf_18_circle =
@@ -724,6 +796,10 @@ class SFIcons {
   static const IconData sf_18_square_fill =
       IconData(0x10055A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 19.calendar
+  static const IconData sf_19_calendar =
+      IconData(0x103338, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 19.circle
   static const IconData sf_19_circle =
       IconData(0x1004FE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -739,6 +815,10 @@ class SFIcons {
   /// IconData for SF Symbol 19.square.fill
   static const IconData sf_19_square_fill =
       IconData(0x10055B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol 20.calendar
+  static const IconData sf_20_calendar =
+      IconData(0x103339, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol 20.circle
   static const IconData sf_20_circle =
@@ -756,6 +836,10 @@ class SFIcons {
   static const IconData sf_20_square_fill =
       IconData(0x10055C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 21.calendar
+  static const IconData sf_21_calendar =
+      IconData(0x10333A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 21.circle
   static const IconData sf_21_circle =
       IconData(0x100500, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -771,6 +855,10 @@ class SFIcons {
   /// IconData for SF Symbol 21.square.fill
   static const IconData sf_21_square_fill =
       IconData(0x10055D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol 22.calendar
+  static const IconData sf_22_calendar =
+      IconData(0x10333B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol 22.circle
   static const IconData sf_22_circle =
@@ -788,6 +876,10 @@ class SFIcons {
   static const IconData sf_22_square_fill =
       IconData(0x10055E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 23.calendar
+  static const IconData sf_23_calendar =
+      IconData(0x10333C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 23.circle
   static const IconData sf_23_circle =
       IconData(0x100502, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -803,6 +895,10 @@ class SFIcons {
   /// IconData for SF Symbol 23.square.fill
   static const IconData sf_23_square_fill =
       IconData(0x10055F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol 24.calendar
+  static const IconData sf_24_calendar =
+      IconData(0x10333D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol 24.circle
   static const IconData sf_24_circle =
@@ -820,6 +916,10 @@ class SFIcons {
   static const IconData sf_24_square_fill =
       IconData(0x100560, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 25.calendar
+  static const IconData sf_25_calendar =
+      IconData(0x10333E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 25.circle
   static const IconData sf_25_circle =
       IconData(0x100504, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -835,6 +935,10 @@ class SFIcons {
   /// IconData for SF Symbol 25.square.fill
   static const IconData sf_25_square_fill =
       IconData(0x100561, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol 26.calendar
+  static const IconData sf_26_calendar =
+      IconData(0x10333F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol 26.circle
   static const IconData sf_26_circle =
@@ -852,6 +956,10 @@ class SFIcons {
   static const IconData sf_26_square_fill =
       IconData(0x100562, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 27.calendar
+  static const IconData sf_27_calendar =
+      IconData(0x103340, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 27.circle
   static const IconData sf_27_circle =
       IconData(0x100506, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -868,6 +976,10 @@ class SFIcons {
   static const IconData sf_27_square_fill =
       IconData(0x100563, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 28.calendar
+  static const IconData sf_28_calendar =
+      IconData(0x103341, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 28.circle
   static const IconData sf_28_circle =
       IconData(0x100507, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -883,6 +995,10 @@ class SFIcons {
   /// IconData for SF Symbol 28.square.fill
   static const IconData sf_28_square_fill =
       IconData(0x100564, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol 29.calendar
+  static const IconData sf_29_calendar =
+      IconData(0x103342, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol 29.circle
   static const IconData sf_29_circle =
@@ -908,6 +1024,10 @@ class SFIcons {
   static const IconData sf_30_arrow_trianglehead_counterclockwise =
       IconData(0x100386, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol 30.calendar
+  static const IconData sf_30_calendar =
+      IconData(0x103343, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol 30.circle
   static const IconData sf_30_circle =
       IconData(0x100509, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -923,6 +1043,10 @@ class SFIcons {
   /// IconData for SF Symbol 30.square.fill
   static const IconData sf_30_square_fill =
       IconData(0x100566, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol 31.calendar
+  static const IconData sf_31_calendar =
+      IconData(0x103344, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol 31.circle
   static const IconData sf_31_circle =
@@ -1332,6 +1456,10 @@ class SFIcons {
   static const IconData sf_air_car_side_fill =
       IconData(0x102964, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol air.conditioner
+  static const IconData sf_air_conditioner =
+      IconData(0x103546, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol air.conditioner.horizontal
   static const IconData sf_air_conditioner_horizontal =
       IconData(0x1014ED, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -1339,6 +1467,10 @@ class SFIcons {
   /// IconData for SF Symbol air.conditioner.horizontal.fill
   static const IconData sf_air_conditioner_horizontal_fill =
       IconData(0x1014EE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol air.conditioner.slash
+  static const IconData sf_air_conditioner_slash =
+      IconData(0x103547, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol air.conditioner.vertical
   static const IconData sf_air_conditioner_vertical =
@@ -1396,9 +1528,57 @@ class SFIcons {
   static const IconData sf_airplane_circle_fill =
       IconData(0x1004B9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol airplane.cloud
+  static const IconData sf_airplane_cloud =
+      IconData(0x10321C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol airplane.departure
   static const IconData sf_airplane_departure =
       IconData(0x100DF0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airplane.landed
+  static const IconData sf_airplane_landed =
+      IconData(0x10321B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airplane.path.dotted
+  static const IconData sf_airplane_path_dotted =
+      IconData(0x1032C1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airplane.ticket
+  static const IconData sf_airplane_ticket =
+      IconData(0x100DF1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airplane.ticket.fill
+  static const IconData sf_airplane_ticket_fill =
+      IconData(0x100DF2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airplane.up.forward
+  static const IconData sf_airplane_up_forward =
+      IconData(0x103397, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airplane.up.forward.app
+  static const IconData sf_airplane_up_forward_app =
+      IconData(0x103398, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airplane.up.forward.app.fill
+  static const IconData sf_airplane_up_forward_app_fill =
+      IconData(0x103399, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airplane.up.right
+  static const IconData sf_airplane_up_right =
+      IconData(0x100E2F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airplane.up.right.app
+  static const IconData sf_airplane_up_right_app =
+      IconData(0x1032D1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airplane.up.right.app.fill
+  static const IconData sf_airplane_up_right_app_fill =
+      IconData(0x1032D2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airplaneseat
+  static const IconData sf_airplaneseat =
+      IconData(0x1032F0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol airplay.audio
   static const IconData sf_airplay_audio =
@@ -1479,6 +1659,26 @@ class SFIcons {
   /// IconData for SF Symbol airpods.gen3.chargingcase.wireless.fill
   static const IconData sf_airpods_gen3_chargingcase_wireless_fill =
       IconData(0x101151, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airpods.gen4
+  static const IconData sf_airpods_gen4 =
+      IconData(0x102B43, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airpods.gen4.chargingcase.wireless
+  static const IconData sf_airpods_gen4_chargingcase_wireless =
+      IconData(0x102B46, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airpods.gen4.chargingcase.wireless.fill
+  static const IconData sf_airpods_gen4_chargingcase_wireless_fill =
+      IconData(0x102B47, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airpods.gen4.left
+  static const IconData sf_airpods_gen4_left =
+      IconData(0x102B45, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol airpods.gen4.right
+  static const IconData sf_airpods_gen4_right =
+      IconData(0x102B44, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol airpods.max
   static const IconData sf_airpods_max =
@@ -1706,6 +1906,10 @@ class SFIcons {
   static const IconData sf_app =
       IconData(0x10044B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol app.background.dotted
+  static const IconData sf_app_background_dotted =
+      IconData(0x102DF8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol app.badge
   static const IconData sf_app_badge =
       IconData(0x10044F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -1750,6 +1954,22 @@ class SFIcons {
   static const IconData sf_app_gift_fill =
       IconData(0x100452, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol app.grid
+  static const IconData sf_app_grid =
+      IconData(0x1033DE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol app.shadow
+  static const IconData sf_app_shadow =
+      IconData(0x1033BA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol app.specular
+  static const IconData sf_app_specular =
+      IconData(0x1033E1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol app.translucent
+  static const IconData sf_app_translucent =
+      IconData(0x1033E2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol appclip
   static const IconData sf_appclip =
       IconData(0x100B68, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -1761,6 +1981,22 @@ class SFIcons {
   /// IconData for SF Symbol append.page.fill
   static const IconData sf_append_page_fill =
       IconData(0x10098B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol apple.books.pages
+  static const IconData sf_apple_books_pages =
+      IconData(0x103072, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol apple.books.pages.fill
+  static const IconData sf_apple_books_pages_fill =
+      IconData(0x103073, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol apple.classical.pages
+  static const IconData sf_apple_classical_pages =
+      IconData(0x10306C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol apple.classical.pages.fill
+  static const IconData sf_apple_classical_pages_fill =
+      IconData(0x10306D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol apple.haptics.and.exclamationmark.triangle
   static const IconData sf_apple_haptics_and_exclamationmark_triangle =
@@ -1774,6 +2010,10 @@ class SFIcons {
   static const IconData sf_apple_haptics_and_music_note_slash =
       IconData(0x102780, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol apple.homekit
+  static const IconData sf_apple_homekit =
+      IconData(0x100800, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol apple.image.playground
   static const IconData sf_apple_image_playground =
       IconData(0x102B95, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -1785,6 +2025,10 @@ class SFIcons {
   /// IconData for SF Symbol apple.intelligence
   static const IconData sf_apple_intelligence =
       IconData(0x102BA2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol apple.intelligence.badge.xmark
+  static const IconData sf_apple_intelligence_badge_xmark =
+      IconData(0x10302B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol apple.logo
   static const IconData sf_apple_logo =
@@ -1810,6 +2054,14 @@ class SFIcons {
   static const IconData sf_apple_meditate_square_stack_fill =
       IconData(0x1017FF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol apple.podcasts.pages
+  static const IconData sf_apple_podcasts_pages =
+      IconData(0x103070, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol apple.podcasts.pages.fill
+  static const IconData sf_apple_podcasts_pages_fill =
+      IconData(0x103071, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol apple.terminal
   static const IconData sf_apple_terminal =
       IconData(0x100A7C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -1833,6 +2085,10 @@ class SFIcons {
   /// IconData for SF Symbol apple.terminal.on.rectangle.fill
   static const IconData sf_apple_terminal_on_rectangle_fill =
       IconData(0x101E5C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol apple.writing.tools
+  static const IconData sf_apple_writing_tools =
+      IconData(0x102DF4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol applepencil
   static const IconData sf_applepencil =
@@ -1886,6 +2142,22 @@ class SFIcons {
   static const IconData sf_appletv =
       IconData(0x100A2B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol appletv.badge.checkmark
+  static const IconData sf_appletv_badge_checkmark =
+      IconData(0x103280, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol appletv.badge.checkmark.fill
+  static const IconData sf_appletv_badge_checkmark_fill =
+      IconData(0x103281, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol appletv.badge.exclamationmark
+  static const IconData sf_appletv_badge_exclamationmark =
+      IconData(0x101C3A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol appletv.badge.exclamationmark.fill
+  static const IconData sf_appletv_badge_exclamationmark_fill =
+      IconData(0x101C3B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol appletv.fill
   static const IconData sf_appletv_fill =
       IconData(0x100874, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -1930,6 +2202,14 @@ class SFIcons {
   static const IconData sf_applewatch_and_arrow_forward =
       IconData(0x102105, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol applewatch.badge.checkmark
+  static const IconData sf_applewatch_badge_checkmark =
+      IconData(0x103284, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol applewatch.badge.exclamationmark
+  static const IconData sf_applewatch_badge_exclamationmark =
+      IconData(0x103523, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol applewatch.case.sizes
   static const IconData sf_applewatch_case_sizes =
       IconData(0x10283C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -1954,13 +2234,29 @@ class SFIcons {
   static const IconData sf_apps_ipad =
       IconData(0x100B95, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol apps.ipad.badge.checkmark
+  static const IconData sf_apps_ipad_badge_checkmark =
+      IconData(0x103364, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol apps.ipad.badge.plus
+  static const IconData sf_apps_ipad_badge_plus =
+      IconData(0x100BD7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol apps.ipad.landscape
   static const IconData sf_apps_ipad_landscape =
       IconData(0x100B96, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol apps.ipad.on.rectangle.portrait.dashed
+  static const IconData sf_apps_ipad_on_rectangle_portrait_dashed =
+      IconData(0x102FEC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol apps.iphone
   static const IconData sf_apps_iphone =
       IconData(0x1007DE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol apps.iphone.badge.checkmark
+  static const IconData sf_apps_iphone_badge_checkmark =
+      IconData(0x103362, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol apps.iphone.badge.plus
   static const IconData sf_apps_iphone_badge_plus =
@@ -1985,6 +2281,10 @@ class SFIcons {
   /// IconData for SF Symbol aqi.medium
   static const IconData sf_aqi_medium =
       IconData(0x100D3F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol aqi.medium.gauge.open
+  static const IconData sf_aqi_medium_gauge_open =
+      IconData(0x10309C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol arcade.stick
   static const IconData sf_arcade_stick =
@@ -2089,6 +2389,10 @@ class SFIcons {
   /// IconData for SF Symbol arrow.backward.to.line.circle.fill
   static const IconData sf_arrow_backward_to_line_circle_fill =
       IconData(0x10108D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol arrow.backward.to.line.compact
+  static const IconData sf_arrow_backward_to_line_compact =
+      IconData(0x10108B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol arrow.backward.to.line.square
   static const IconData sf_arrow_backward_to_line_square =
@@ -2232,6 +2536,22 @@ class SFIcons {
   /// IconData for SF Symbol arrow.down.circle
   static const IconData sf_arrow_down_circle =
       IconData(0x100078, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol arrow.down.circle.badge.pause
+  static const IconData sf_arrow_down_circle_badge_pause =
+      IconData(0x1031D6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol arrow.down.circle.badge.pause.fill
+  static const IconData sf_arrow_down_circle_badge_pause_fill =
+      IconData(0x1031D7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol arrow.down.circle.badge.xmark
+  static const IconData sf_arrow_down_circle_badge_xmark =
+      IconData(0x1031DA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol arrow.down.circle.badge.xmark.fill
+  static const IconData sf_arrow_down_circle_badge_xmark_fill =
+      IconData(0x1031DB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol arrow.down.circle.dotted
   static const IconData sf_arrow_down_circle_dotted =
@@ -2524,6 +2844,14 @@ class SFIcons {
   static const IconData sf_arrow_forward_circle_fill =
       IconData(0x100C13, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol arrow.forward.folder
+  static const IconData sf_arrow_forward_folder =
+      IconData(0x103029, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol arrow.forward.folder.fill
+  static const IconData sf_arrow_forward_folder_fill =
+      IconData(0x10302A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol arrow.forward.square
   static const IconData sf_arrow_forward_square =
       IconData(0x100C14, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -2543,6 +2871,10 @@ class SFIcons {
   /// IconData for SF Symbol arrow.forward.to.line.circle.fill
   static const IconData sf_arrow_forward_to_line_circle_fill =
       IconData(0x101091, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol arrow.forward.to.line.compact
+  static const IconData sf_arrow_forward_to_line_compact =
+      IconData(0x10108F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol arrow.forward.to.line.square
   static const IconData sf_arrow_forward_to_line_square =
@@ -2834,6 +3166,10 @@ class SFIcons {
   static const IconData sf_arrow_trianglehead_topright_capsulepath_clockwise =
       IconData(0x100916, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol arrow.trianglehead.turn.up.right
+  static const IconData sf_arrow_trianglehead_turn_up_right =
+      IconData(0x10065D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol arrow.trianglehead.turn.up.right.circle
   static const IconData sf_arrow_trianglehead_turn_up_right_circle =
       IconData(0x1007F7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -3066,6 +3402,14 @@ class SFIcons {
   /// IconData for SF Symbol arrow.up.document.fill
   static const IconData sf_arrow_up_document_fill =
       IconData(0x10023C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol arrow.up.folder
+  static const IconData sf_arrow_up_folder =
+      IconData(0x103027, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol arrow.up.folder.fill
+  static const IconData sf_arrow_up_folder_fill =
+      IconData(0x103028, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol arrow.up.forward
   static const IconData sf_arrow_up_forward =
@@ -3763,6 +4107,11 @@ class SFIcons {
   static const IconData sf_arrowtriangle_backward_fill =
       IconData(0x100C01, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol arrowtriangle.backward.inset.filled.trailingthird.rectangle
+  static const IconData
+      sf_arrowtriangle_backward_inset_filled_trailingthird_rectangle =
+      IconData(0x1035DF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol arrowtriangle.backward.square
   static const IconData sf_arrowtriangle_backward_square =
       IconData(0x100C04, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -3774,6 +4123,14 @@ class SFIcons {
   /// IconData for SF Symbol arrowtriangle.down
   static const IconData sf_arrowtriangle_down =
       IconData(0x1004C3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol arrowtriangle.down.2
+  static const IconData sf_arrowtriangle_down_2 =
+      IconData(0x1035C7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol arrowtriangle.down.2.fill
+  static const IconData sf_arrowtriangle_down_2_fill =
+      IconData(0x1035C8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol arrowtriangle.down.circle
   static const IconData sf_arrowtriangle_down_circle =
@@ -3810,6 +4167,11 @@ class SFIcons {
   /// IconData for SF Symbol arrowtriangle.forward.fill
   static const IconData sf_arrowtriangle_forward_fill =
       IconData(0x100C07, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol arrowtriangle.forward.inset.filled.trailingthird.rectangle
+  static const IconData
+      sf_arrowtriangle_forward_inset_filled_trailingthird_rectangle =
+      IconData(0x1035DE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol arrowtriangle.forward.square
   static const IconData sf_arrowtriangle_forward_square =
@@ -3890,6 +4252,14 @@ class SFIcons {
   /// IconData for SF Symbol arrowtriangle.up
   static const IconData sf_arrowtriangle_up =
       IconData(0x1004C2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol arrowtriangle.up.2
+  static const IconData sf_arrowtriangle_up_2 =
+      IconData(0x1035C5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol arrowtriangle.up.2.fill
+  static const IconData sf_arrowtriangle_up_2_fill =
+      IconData(0x1035C6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol arrowtriangle.up.arrowtriangle.down.window.left
   static const IconData sf_arrowtriangle_up_arrowtriangle_down_window_left =
@@ -4190,6 +4560,14 @@ class SFIcons {
   /// IconData for SF Symbol backpack.fill
   static const IconData sf_backpack_fill =
       IconData(0x1012FA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol backpack.sensor.tag.radiowaves.left.and.right
+  static const IconData sf_backpack_sensor_tag_radiowaves_left_and_right =
+      IconData(0x103037, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol backpack.sensor.tag.radiowaves.left.and.right.fill
+  static const IconData sf_backpack_sensor_tag_radiowaves_left_and_right_fill =
+      IconData(0x103038, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol backward
   static const IconData sf_backward =
@@ -4569,6 +4947,26 @@ class SFIcons {
   static const IconData sf_beats_powerbeats_pro =
       IconData(0x100E6D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol beats.powerbeats.pro.2
+  static const IconData sf_beats_powerbeats_pro_2 =
+      IconData(0x10279E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol beats.powerbeats.pro.2.chargingcase
+  static const IconData sf_beats_powerbeats_pro_2_chargingcase =
+      IconData(0x1027A1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol beats.powerbeats.pro.2.chargingcase.fill
+  static const IconData sf_beats_powerbeats_pro_2_chargingcase_fill =
+      IconData(0x1027A2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol beats.powerbeats.pro.2.left
+  static const IconData sf_beats_powerbeats_pro_2_left =
+      IconData(0x1027A0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol beats.powerbeats.pro.2.right
+  static const IconData sf_beats_powerbeats_pro_2_right =
+      IconData(0x10279F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol beats.powerbeats.pro.chargingcase
   static const IconData sf_beats_powerbeats_pro_chargingcase =
       IconData(0x100E70, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -4665,6 +5063,14 @@ class SFIcons {
   static const IconData sf_bed_double =
       IconData(0x100669, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol bed.double.badge.checkmark
+  static const IconData sf_bed_double_badge_checkmark =
+      IconData(0x10334F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol bed.double.badge.checkmark.fill
+  static const IconData sf_bed_double_badge_checkmark_fill =
+      IconData(0x103350, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol bed.double.circle
   static const IconData sf_bed_double_circle =
       IconData(0x10104F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -4721,6 +5127,14 @@ class SFIcons {
   static const IconData sf_bell_badge_waveform_fill =
       IconData(0x100F00, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol bell.badge.waveform.slash
+  static const IconData sf_bell_badge_waveform_slash =
+      IconData(0x10120D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol bell.badge.waveform.slash.fill
+  static const IconData sf_bell_badge_waveform_slash_fill =
+      IconData(0x10120E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol bell.circle
   static const IconData sf_bell_circle =
       IconData(0x1002DB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -4772,6 +5186,14 @@ class SFIcons {
   /// IconData for SF Symbol bicycle.circle.fill
   static const IconData sf_bicycle_circle_fill =
       IconData(0x100C6D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol bicycle.sensor.tag.radiowaves.left.and.right
+  static const IconData sf_bicycle_sensor_tag_radiowaves_left_and_right =
+      IconData(0x103039, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol bicycle.sensor.tag.radiowaves.left.and.right.fill
+  static const IconData sf_bicycle_sensor_tag_radiowaves_left_and_right_fill =
+      IconData(0x10303A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol binoculars
   static const IconData sf_binoculars =
@@ -4878,6 +5300,22 @@ class SFIcons {
   /// IconData for SF Symbol blinds.vertical.open
   static const IconData sf_blinds_vertical_open =
       IconData(0x101473, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol blood.pressure.cuff
+  static const IconData sf_blood_pressure_cuff =
+      IconData(0x10351B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol blood.pressure.cuff.badge.gauge.with.needle
+  static const IconData sf_blood_pressure_cuff_badge_gauge_with_needle =
+      IconData(0x1034FB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol blood.pressure.cuff.badge.gauge.with.needle.fill
+  static const IconData sf_blood_pressure_cuff_badge_gauge_with_needle_fill =
+      IconData(0x1034FC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol blood.pressure.cuff.fill
+  static const IconData sf_blood_pressure_cuff_fill =
+      IconData(0x10351C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol bold
   static const IconData sf_bold =
@@ -4999,6 +5437,14 @@ class SFIcons {
   static const IconData sf_bolt_horizontal_icloud_fill =
       IconData(0x100640, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol bolt.house
+  static const IconData sf_bolt_house =
+      IconData(0x102DA0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol bolt.house.fill
+  static const IconData sf_bolt_house_fill =
+      IconData(0x102DA1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol bolt.ring.closed
   static const IconData sf_bolt_ring_closed =
       IconData(0x101258, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -5058,6 +5504,14 @@ class SFIcons {
   /// IconData for SF Symbol book.and.wrench.fill
   static const IconData sf_book_and_wrench_fill =
       IconData(0x101C38, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol book.badge.plus
+  static const IconData sf_book_badge_plus =
+      IconData(0x10344F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol book.badge.plus.fill
+  static const IconData sf_book_badge_plus_fill =
+      IconData(0x103450, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol book.circle
   static const IconData sf_book_circle =
@@ -5236,6 +5690,14 @@ class SFIcons {
   /// IconData for SF Symbol briefcase.fill
   static const IconData sf_briefcase_fill =
       IconData(0x10039D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol briefcase.sensor.tag.radiowaves.left.and.right
+  static const IconData sf_briefcase_sensor_tag_radiowaves_left_and_right =
+      IconData(0x103031, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol briefcase.sensor.tag.radiowaves.left.and.right.fill
+  static const IconData sf_briefcase_sensor_tag_radiowaves_left_and_right_fill =
+      IconData(0x103032, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol bubble
   static const IconData sf_bubble =
@@ -5445,6 +5907,14 @@ class SFIcons {
   static const IconData sf_button_horizontal_fill =
       IconData(0x101E1F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol button.horizontal.top
+  static const IconData sf_button_horizontal_top =
+      IconData(0x1035D1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol button.horizontal.top.fill
+  static const IconData sf_button_horizontal_top_fill =
+      IconData(0x1035D2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol button.horizontal.top.press
   static const IconData sf_button_horizontal_top_press =
       IconData(0x10206B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -5481,6 +5951,14 @@ class SFIcons {
   static const IconData sf_button_roundedtop_horizontal_fill =
       IconData(0x100A79, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol button.vertical.left
+  static const IconData sf_button_vertical_left =
+      IconData(0x1035CF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol button.vertical.left.fill
+  static const IconData sf_button_vertical_left_fill =
+      IconData(0x1035D0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol button.vertical.left.press
   static const IconData sf_button_vertical_left_press =
       IconData(0x102089, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -5488,6 +5966,14 @@ class SFIcons {
   /// IconData for SF Symbol button.vertical.left.press.fill
   static const IconData sf_button_vertical_left_press_fill =
       IconData(0x10208A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol button.vertical.right
+  static const IconData sf_button_vertical_right =
+      IconData(0x1035CD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol button.vertical.right.fill
+  static const IconData sf_button_vertical_right_fill =
+      IconData(0x1035CE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol button.vertical.right.press
   static const IconData sf_button_vertical_right_press =
@@ -5537,6 +6023,10 @@ class SFIcons {
   static const IconData sf_cable_connector_slash =
       IconData(0x1021E5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol cable.connector.video
+  static const IconData sf_cable_connector_video =
+      IconData(0x102DD4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol cablecar
   static const IconData sf_cablecar =
       IconData(0x100DF6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -5553,6 +6043,10 @@ class SFIcons {
   static const IconData sf_calendar_and_person =
       IconData(0x10255D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol calendar.badge
+  static const IconData sf_calendar_badge =
+      IconData(0x102B7F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol calendar.badge.checkmark
   static const IconData sf_calendar_badge_checkmark =
       IconData(0x101EE7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -5564,6 +6058,10 @@ class SFIcons {
   /// IconData for SF Symbol calendar.badge.exclamationmark
   static const IconData sf_calendar_badge_exclamationmark =
       IconData(0x100B9D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol calendar.badge.lock
+  static const IconData sf_calendar_badge_lock =
+      IconData(0x103082, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol calendar.badge.minus
   static const IconData sf_calendar_badge_minus =
@@ -5585,17 +6083,49 @@ class SFIcons {
   static const IconData sf_calendar_day_timeline_leading =
       IconData(0x101043, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol calendar.day.timeline.leading.circle
+  static const IconData sf_calendar_day_timeline_leading_circle =
+      IconData(0x103304, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol calendar.day.timeline.leading.circle.fill
+  static const IconData sf_calendar_day_timeline_leading_circle_fill =
+      IconData(0x103305, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol calendar.day.timeline.left
   static const IconData sf_calendar_day_timeline_left =
       IconData(0x100EE4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol calendar.day.timeline.left.circle
+  static const IconData sf_calendar_day_timeline_left_circle =
+      IconData(0x1032F6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol calendar.day.timeline.left.circle.fill
+  static const IconData sf_calendar_day_timeline_left_circle_fill =
+      IconData(0x1032F7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol calendar.day.timeline.right
   static const IconData sf_calendar_day_timeline_right =
       IconData(0x100EE3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol calendar.day.timeline.right.circle
+  static const IconData sf_calendar_day_timeline_right_circle =
+      IconData(0x1032F8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol calendar.day.timeline.right.circle.fill
+  static const IconData sf_calendar_day_timeline_right_circle_fill =
+      IconData(0x1032F9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol calendar.day.timeline.trailing
   static const IconData sf_calendar_day_timeline_trailing =
       IconData(0x101042, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol calendar.day.timeline.trailing.circle
+  static const IconData sf_calendar_day_timeline_trailing_circle =
+      IconData(0x103306, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol calendar.day.timeline.trailing.circle.fill
+  static const IconData sf_calendar_day_timeline_trailing_circle_fill =
+      IconData(0x103307, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol camera
   static const IconData sf_camera =
@@ -5701,6 +6231,14 @@ class SFIcons {
   static const IconData sf_camera_on_rectangle_fill =
       IconData(0x100742, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol camera.sensor.tag.radiowaves.left.and.right
+  static const IconData sf_camera_sensor_tag_radiowaves_left_and_right =
+      IconData(0x10303B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol camera.sensor.tag.radiowaves.left.and.right.fill
+  static const IconData sf_camera_sensor_tag_radiowaves_left_and_right_fill =
+      IconData(0x10303C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol camera.shutter.button
   static const IconData sf_camera_shutter_button =
       IconData(0x100E7A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -5712,6 +6250,10 @@ class SFIcons {
   /// IconData for SF Symbol camera.viewfinder
   static const IconData sf_camera_viewfinder =
       IconData(0x1003BC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol camera.viewfinder.badge.automatic
+  static const IconData sf_camera_viewfinder_badge_automatic =
+      IconData(0x1035E7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol candybarphone
   static const IconData sf_candybarphone =
@@ -5905,6 +6447,10 @@ class SFIcons {
   static const IconData sf_car_rear_road_lane_dashed =
       IconData(0x101578, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol car.rear.road.lane.dashed.arrowtriangle.2.outward
+  static const IconData sf_car_rear_road_lane_dashed_arrowtriangle_2_outward =
+      IconData(0x10354A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol car.rear.road.lane.distance.1
   static const IconData sf_car_rear_road_lane_distance_1 =
       IconData(0x1022BA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -5998,6 +6544,14 @@ class SFIcons {
   static const IconData sf_car_side_and_exclamationmark_fill =
       IconData(0x101805, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol car.side.arrow.left.and.right
+  static const IconData sf_car_side_arrow_left_and_right =
+      IconData(0x102E7C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol car.side.arrow.left.and.right.fill
+  static const IconData sf_car_side_arrow_left_and_right_fill =
+      IconData(0x102E7D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol car.side.arrowtriangle.down
   static const IconData sf_car_side_arrowtriangle_down =
       IconData(0x10180B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -6054,6 +6608,16 @@ class SFIcons {
   static const IconData sf_car_side_hill_down =
       IconData(0x10194E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol car.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle
+  static const IconData
+      sf_car_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle =
+      IconData(0x102F1B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol car.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill
+  static const IconData
+      sf_car_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle_fill =
+      IconData(0x102F1C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol car.side.hill.down.fill
   static const IconData sf_car_side_hill_down_fill =
       IconData(0x10194F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -6085,6 +6649,16 @@ class SFIcons {
   /// IconData for SF Symbol car.side.rear.and.collision.and.car.side.front
   static const IconData sf_car_side_rear_and_collision_and_car_side_front =
       IconData(0x101D74, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol car.side.rear.and.collision.and.car.side.front.and.arrow.forward
+  static const IconData
+      sf_car_side_rear_and_collision_and_car_side_front_and_arrow_forward =
+      IconData(0x102EF3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol car.side.rear.and.collision.and.car.side.front.and.steeringwheel
+  static const IconData
+      sf_car_side_rear_and_collision_and_car_side_front_and_steeringwheel =
+      IconData(0x102F1A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol car.side.rear.and.collision.and.car.side.front.slash
   static const IconData
@@ -6365,6 +6939,14 @@ class SFIcons {
   static const IconData sf_car_top_lane_dashed_departure_left_fill =
       IconData(0x1018B0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol car.top.lane.dashed.departure.left.slash
+  static const IconData sf_car_top_lane_dashed_departure_left_slash =
+      IconData(0x102EAF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol car.top.lane.dashed.departure.left.slash.fill
+  static const IconData sf_car_top_lane_dashed_departure_left_slash_fill =
+      IconData(0x102EB1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol car.top.lane.dashed.departure.right
   static const IconData sf_car_top_lane_dashed_departure_right =
       IconData(0x10157C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -6372,6 +6954,31 @@ class SFIcons {
   /// IconData for SF Symbol car.top.lane.dashed.departure.right.fill
   static const IconData sf_car_top_lane_dashed_departure_right_fill =
       IconData(0x10157D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol car.top.lane.dashed.departure.right.slash
+  static const IconData sf_car_top_lane_dashed_departure_right_slash =
+      IconData(0x102EB3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol car.top.lane.dashed.departure.right.slash.fill
+  static const IconData sf_car_top_lane_dashed_departure_right_slash_fill =
+      IconData(0x102EB5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol car.top.radiowaves.2.front.left.front.front.right
+  static const IconData sf_car_top_radiowaves_2_front_left_front_front_right =
+      IconData(0x102D3E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol car.top.radiowaves.2.front.left.front.front.right.fill
+  static const IconData
+      sf_car_top_radiowaves_2_front_left_front_front_right_fill =
+      IconData(0x102D3F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol car.top.radiowaves.2.rear.left.rear.rear.right
+  static const IconData sf_car_top_radiowaves_2_rear_left_rear_rear_right =
+      IconData(0x102D42, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol car.top.radiowaves.2.rear.left.rear.rear.right.fill
+  static const IconData sf_car_top_radiowaves_2_rear_left_rear_rear_right_fill =
+      IconData(0x102D43, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol car.top.radiowaves.front
   static const IconData sf_car_top_radiowaves_front =
@@ -6480,6 +7087,10 @@ class SFIcons {
   static const IconData sf_car_window_left_badge_exclamationmark =
       IconData(0x1012A0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol car.window.left.badge.lock
+  static const IconData sf_car_window_left_badge_lock =
+      IconData(0x103584, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol car.window.left.badge.xmark
   static const IconData sf_car_window_left_badge_xmark =
       IconData(0x1012A3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -6499,6 +7110,10 @@ class SFIcons {
   /// IconData for SF Symbol car.window.right.badge.exclamationmark
   static const IconData sf_car_window_right_badge_exclamationmark =
       IconData(0x10125F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol car.window.right.badge.lock
+  static const IconData sf_car_window_right_badge_lock =
+      IconData(0x10354B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol car.window.right.badge.xmark
   static const IconData sf_car_window_right_badge_xmark =
@@ -6821,6 +7436,14 @@ class SFIcons {
   static const IconData sf_cellularbars =
       IconData(0x100B67, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol cellularbars.circle
+  static const IconData sf_cellularbars_circle =
+      IconData(0x1032FA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol cellularbars.circle.fill
+  static const IconData sf_cellularbars_circle_fill =
+      IconData(0x1032FB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol centsign
   static const IconData sf_centsign =
       IconData(0x101440, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -6950,9 +7573,17 @@ class SFIcons {
   static const IconData sf_character_sutton =
       IconData(0x1014D7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol character.text.justify
+  static const IconData sf_character_text_justify =
+      IconData(0x103157, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol character.textbox
   static const IconData sf_character_textbox =
       IconData(0x100176, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol character.textbox.badge.sparkles
+  static const IconData sf_character_textbox_badge_sparkles =
+      IconData(0x102EB9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol characters.lowercase
   static const IconData sf_characters_lowercase =
@@ -6989,6 +7620,10 @@ class SFIcons {
   /// IconData for SF Symbol chart.bar.xaxis.ascending.badge.clock
   static const IconData sf_chart_bar_xaxis_ascending_badge_clock =
       IconData(0x102190, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol chart.bar.xaxis.descending
+  static const IconData sf_chart_bar_xaxis_descending =
+      IconData(0x10348A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol chart.bar.yaxis
   static const IconData sf_chart_bar_yaxis =
@@ -7070,9 +7705,21 @@ class SFIcons {
   static const IconData sf_checkmark =
       IconData(0x100185, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol checkmark.app
+  static const IconData sf_checkmark_app =
+      IconData(0x102FF2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol checkmark.app.fill
+  static const IconData sf_checkmark_app_fill =
+      IconData(0x102FF3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol checkmark.applewatch
   static const IconData sf_checkmark_applewatch =
       IconData(0x102117, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol checkmark.arrow.trianglehead.clockwise
+  static const IconData sf_checkmark_arrow_trianglehead_clockwise =
+      IconData(0x1031FD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol checkmark.arrow.trianglehead.counterclockwise
   static const IconData sf_checkmark_arrow_trianglehead_counterclockwise =
@@ -7090,6 +7737,22 @@ class SFIcons {
   static const IconData sf_checkmark_circle =
       IconData(0x100062, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol checkmark.circle.badge.airplane
+  static const IconData sf_checkmark_circle_badge_airplane =
+      IconData(0x1032C4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol checkmark.circle.badge.airplane.fill
+  static const IconData sf_checkmark_circle_badge_airplane_fill =
+      IconData(0x1032C5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol checkmark.circle.badge.plus
+  static const IconData sf_checkmark_circle_badge_plus =
+      IconData(0x103206, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol checkmark.circle.badge.plus.fill
+  static const IconData sf_checkmark_circle_badge_plus_fill =
+      IconData(0x103207, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol checkmark.circle.badge.questionmark
   static const IconData sf_checkmark_circle_badge_questionmark =
       IconData(0x10171E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -7106,6 +7769,10 @@ class SFIcons {
   static const IconData sf_checkmark_circle_badge_xmark_fill =
       IconData(0x101723, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol checkmark.circle.dotted
+  static const IconData sf_checkmark_circle_dotted =
+      IconData(0x103479, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol checkmark.circle.fill
   static const IconData sf_checkmark_circle_fill =
       IconData(0x100063, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -7113,6 +7780,10 @@ class SFIcons {
   /// IconData for SF Symbol checkmark.circle.trianglebadge.exclamationmark
   static const IconData sf_checkmark_circle_trianglebadge_exclamationmark =
       IconData(0x1010CE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol checkmark.circle.trianglebadge.exclamationmark.fill
+  static const IconData sf_checkmark_circle_trianglebadge_exclamationmark_fill =
+      IconData(0x1032C2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol checkmark.diamond
   static const IconData sf_checkmark_diamond =
@@ -7682,6 +8353,10 @@ class SFIcons {
   static const IconData sf_circle_grid_2x2_fill =
       IconData(0x1007BF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol circle.grid.2x2.topleft.checkmark.filled
+  static const IconData sf_circle_grid_2x2_topleft_checkmark_filled =
+      IconData(0x102FEA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol circle.grid.3x3
   static const IconData sf_circle_grid_3x3 =
       IconData(0x1001F8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -7771,6 +8446,18 @@ class SFIcons {
   static const IconData sf_circle_lefthalf_striped_horizontal_inverse =
       IconData(0x101E66, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol circle.on.square
+  static const IconData sf_circle_on_square =
+      IconData(0x1033B7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol circle.on.square.intersection.dotted
+  static const IconData sf_circle_on_square_intersection_dotted =
+      IconData(0x1033C1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol circle.on.square.merge
+  static const IconData sf_circle_on_square_merge =
+      IconData(0x1033B9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol circle.rectangle.dashed
   static const IconData sf_circle_rectangle_dashed =
       IconData(0x10166B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -7852,6 +8539,11 @@ class SFIcons {
       sf_clock_arrow_trianglehead_2_counterclockwise_rotate_90 =
       IconData(0x100BDB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol clock.arrow.trianglehead.clockwise.rotate.90.path.dotted
+  static const IconData
+      sf_clock_arrow_trianglehead_clockwise_rotate_90_path_dotted =
+      IconData(0x1032D0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol clock.arrow.trianglehead.counterclockwise.rotate.90
   static const IconData sf_clock_arrow_trianglehead_counterclockwise_rotate_90 =
       IconData(0x1008D4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -7859,6 +8551,14 @@ class SFIcons {
   /// IconData for SF Symbol clock.badge
   static const IconData sf_clock_badge =
       IconData(0x10165C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol clock.badge.airplane
+  static const IconData sf_clock_badge_airplane =
+      IconData(0x1032CC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol clock.badge.airplane.fill
+  static const IconData sf_clock_badge_airplane_fill =
+      IconData(0x1032CD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol clock.badge.checkmark
   static const IconData sf_clock_badge_checkmark =
@@ -8176,6 +8876,14 @@ class SFIcons {
   static const IconData sf_coat =
       IconData(0x1023E3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol coat.circle
+  static const IconData sf_coat_circle =
+      IconData(0x10304B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol coat.circle.fill
+  static const IconData sf_coat_circle_fill =
+      IconData(0x10304C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol coat.fill
   static const IconData sf_coat_fill =
       IconData(0x1023E4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -8286,8 +8994,8 @@ class SFIcons {
   static const IconData sf_contact_sensor_fill =
       IconData(0x1014BB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol contextualmenu.and.cursorarrow
-  static const IconData sf_contextualmenu_and_cursorarrow =
+  /// IconData for SF Symbol contextualmenu.and.pointer.arrow
+  static const IconData sf_contextualmenu_and_pointer_arrow =
       IconData(0x100B48, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol control
@@ -8321,6 +9029,14 @@ class SFIcons {
   /// IconData for SF Symbol convertible.side.and.exclamationmark.fill
   static const IconData sf_convertible_side_and_exclamationmark_fill =
       IconData(0x102949, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol convertible.side.arrow.left.and.right
+  static const IconData sf_convertible_side_arrow_left_and_right =
+      IconData(0x102E80, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol convertible.side.arrow.left.and.right.fill
+  static const IconData sf_convertible_side_arrow_left_and_right_fill =
+      IconData(0x102E81, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol convertible.side.arrow.trianglehead.backward
   static const IconData sf_convertible_side_arrow_trianglehead_backward =
@@ -8406,6 +9122,16 @@ class SFIcons {
   static const IconData sf_convertible_side_hill_down =
       IconData(0x102984, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol convertible.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle
+  static const IconData
+      sf_convertible_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle =
+      IconData(0x102F27, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol convertible.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill
+  static const IconData
+      sf_convertible_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle_fill =
+      IconData(0x102F28, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol convertible.side.hill.down.fill
   static const IconData sf_convertible_side_hill_down_fill =
       IconData(0x102985, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -8454,9 +9180,13 @@ class SFIcons {
   static const IconData sf_creditcard =
       IconData(0x10036F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol creditcard.and.123
-  static const IconData sf_creditcard_and_123 =
+  /// IconData for SF Symbol creditcard.and.numbers
+  static const IconData sf_creditcard_and_numbers =
       IconData(0x1010A8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol creditcard.arrow.trianglehead.2.clockwise.rotate.90
+  static const IconData sf_creditcard_arrow_trianglehead_2_clockwise_rotate_90 =
+      IconData(0x103529, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol creditcard.circle
   static const IconData sf_creditcard_circle =
@@ -8469,6 +9199,14 @@ class SFIcons {
   /// IconData for SF Symbol creditcard.fill
   static const IconData sf_creditcard_fill =
       IconData(0x100370, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol creditcard.rewards
+  static const IconData sf_creditcard_rewards =
+      IconData(0x103215, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol creditcard.rewards.fill
+  static const IconData sf_creditcard_rewards_fill =
+      IconData(0x103216, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol creditcard.trianglebadge.exclamationmark
   static const IconData sf_creditcard_trianglebadge_exclamationmark =
@@ -8608,6 +9346,14 @@ class SFIcons {
   static const IconData sf_cube =
       IconData(0x100418, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol cube.circle
+  static const IconData sf_cube_circle =
+      IconData(0x103153, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol cube.circle.fill
+  static const IconData sf_cube_circle_fill =
+      IconData(0x103154, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol cube.fill
   static const IconData sf_cube_fill =
       IconData(0x100419, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -8647,58 +9393,6 @@ class SFIcons {
   /// IconData for SF Symbol curlybraces.square.fill
   static const IconData sf_curlybraces_square_fill =
       IconData(0x100919, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol cursorarrow
-  static const IconData sf_cursorarrow =
-      IconData(0x100ACC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol cursorarrow.and.square.on.square.dashed
-  static const IconData sf_cursorarrow_and_square_on_square_dashed =
-      IconData(0x100B90, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol cursorarrow.click
-  static const IconData sf_cursorarrow_click =
-      IconData(0x100B46, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol cursorarrow.click.2
-  static const IconData sf_cursorarrow_click_2 =
-      IconData(0x100B47, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol cursorarrow.click.badge.clock
-  static const IconData sf_cursorarrow_click_badge_clock =
-      IconData(0x100BB4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol cursorarrow.motionlines
-  static const IconData sf_cursorarrow_motionlines =
-      IconData(0x1008E0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol cursorarrow.motionlines.click
-  static const IconData sf_cursorarrow_motionlines_click =
-      IconData(0x1008E1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol cursorarrow.rays
-  static const IconData sf_cursorarrow_rays =
-      IconData(0x1001F0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol cursorarrow.slash
-  static const IconData sf_cursorarrow_slash =
-      IconData(0x101DC1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol cursorarrow.slash.square
-  static const IconData sf_cursorarrow_slash_square =
-      IconData(0x101DC2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol cursorarrow.slash.square.fill
-  static const IconData sf_cursorarrow_slash_square_fill =
-      IconData(0x101DC3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol cursorarrow.square
-  static const IconData sf_cursorarrow_square =
-      IconData(0x100B45, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol cursorarrow.square.fill
-  static const IconData sf_cursorarrow_square_fill =
-      IconData(0x101680, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol curtains.closed
   static const IconData sf_curtains_closed =
@@ -8866,6 +9560,14 @@ class SFIcons {
   static const IconData sf_desktopcomputer_and_macbook =
       IconData(0x102913, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol desktopcomputer.badge.checkmark
+  static const IconData sf_desktopcomputer_badge_checkmark =
+      IconData(0x10325E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol desktopcomputer.badge.shield.checkmark
+  static const IconData sf_desktopcomputer_badge_shield_checkmark =
+      IconData(0x103286, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol desktopcomputer.trianglebadge.exclamationmark
   static const IconData sf_desktopcomputer_trianglebadge_exclamationmark =
       IconData(0x1010C3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -8990,6 +9692,10 @@ class SFIcons {
   static const IconData sf_die_face_6_fill =
       IconData(0x1009EE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol digitalcrown
+  static const IconData sf_digitalcrown =
+      IconData(0x1035C9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol digitalcrown.arrow.clockwise
   static const IconData sf_digitalcrown_arrow_clockwise =
       IconData(0x100ED6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -9006,6 +9712,14 @@ class SFIcons {
   static const IconData sf_digitalcrown_arrow_counterclockwise_fill =
       IconData(0x100ED9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol digitalcrown.fill
+  static const IconData sf_digitalcrown_fill =
+      IconData(0x1035CA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol digitalcrown.horizontal
+  static const IconData sf_digitalcrown_horizontal =
+      IconData(0x1035CB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol digitalcrown.horizontal.arrow.clockwise
   static const IconData sf_digitalcrown_horizontal_arrow_clockwise =
       IconData(0x100EF1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -9021,6 +9735,10 @@ class SFIcons {
   /// IconData for SF Symbol digitalcrown.horizontal.arrow.counterclockwise.fill
   static const IconData sf_digitalcrown_horizontal_arrow_counterclockwise_fill =
       IconData(0x100EF4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol digitalcrown.horizontal.fill
+  static const IconData sf_digitalcrown_horizontal_fill =
+      IconData(0x1035CC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol digitalcrown.horizontal.press
   static const IconData sf_digitalcrown_horizontal_press =
@@ -9069,6 +9787,10 @@ class SFIcons {
   /// IconData for SF Symbol display.and.arrow.down
   static const IconData sf_display_and_arrow_down =
       IconData(0x100DBD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol display.and.screwdriver
+  static const IconData sf_display_and_screwdriver =
+      IconData(0x103498, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol display.trianglebadge.exclamationmark
   static const IconData sf_display_trianglebadge_exclamationmark =
@@ -9241,6 +9963,14 @@ class SFIcons {
   /// IconData for SF Symbol document.on.document.fill
   static const IconData sf_document_on_document_fill =
       IconData(0x100242, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol document.on.trash
+  static const IconData sf_document_on_trash =
+      IconData(0x1018CA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol document.on.trash.fill
+  static const IconData sf_document_on_trash_fill =
+      IconData(0x1018CB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol document.viewfinder
   static const IconData sf_document_viewfinder =
@@ -9443,17 +10173,30 @@ class SFIcons {
   static const IconData sf_dot_arrowtriangles_up_right_down_left_circle =
       IconData(0x10076F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol dot.circle.and.cursorarrow
-  static const IconData sf_dot_circle_and_cursorarrow =
-      IconData(0x100ACD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+  /// IconData for SF Symbol dot.car.top.radiowaves.2.rear.left.rear.rear.right
+  static const IconData sf_dot_car_top_radiowaves_2_rear_left_rear_rear_right =
+      IconData(0x102D46, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill
+  static const IconData
+      sf_dot_car_top_radiowaves_2_rear_left_rear_rear_right_fill =
+      IconData(0x102D47, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol dot.circle.and.hand.point.up.left.fill
   static const IconData sf_dot_circle_and_hand_point_up_left_fill =
       IconData(0x100EAA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol dot.circle.and.pointer.arrow
+  static const IconData sf_dot_circle_and_pointer_arrow =
+      IconData(0x100ACD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol dot.circle.viewfinder
   static const IconData sf_dot_circle_viewfinder =
       IconData(0x1011DE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol dot.crosshair
+  static const IconData sf_dot_crosshair =
+      IconData(0x1031AE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol dot.radiowaves.forward
   static const IconData sf_dot_radiowaves_forward =
@@ -9507,8 +10250,8 @@ class SFIcons {
   static const IconData sf_dot_viewfinder =
       IconData(0x1011DD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol dots.and.line.vertical.and.cursorarrow.rectangle
-  static const IconData sf_dots_and_line_vertical_and_cursorarrow_rectangle =
+  /// IconData for SF Symbol dots.and.line.vertical.and.pointer.arrow.rectangle
+  static const IconData sf_dots_and_line_vertical_and_pointer_arrow_rectangle =
       IconData(0x101462, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol dpad
@@ -9667,9 +10410,29 @@ class SFIcons {
   static const IconData sf_ear_trianglebadge_exclamationmark =
       IconData(0x1009C1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol earbud.left
+  static const IconData sf_earbud_left =
+      IconData(0x10300D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol earbud.right
+  static const IconData sf_earbud_right =
+      IconData(0x10300C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol earbuds
   static const IconData sf_earbuds =
       IconData(0x100E38, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol earbuds.bone.conduction
+  static const IconData sf_earbuds_bone_conduction =
+      IconData(0x10335D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol earbuds.bone.conduction.left
+  static const IconData sf_earbuds_bone_conduction_left =
+      IconData(0x10335F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol earbuds.bone.conduction.right
+  static const IconData sf_earbuds_bone_conduction_right =
+      IconData(0x10335E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol earbuds.case
   static const IconData sf_earbuds_case =
@@ -9679,17 +10442,33 @@ class SFIcons {
   static const IconData sf_earbuds_case_fill =
       IconData(0x100E66, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol earbuds.in.ear
+  static const IconData sf_earbuds_in_ear =
+      IconData(0x103353, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol earbuds.in.ear.left
+  static const IconData sf_earbuds_in_ear_left =
+      IconData(0x103355, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol earbuds.in.ear.right
+  static const IconData sf_earbuds_in_ear_right =
+      IconData(0x103354, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol earbuds.stemless
+  static const IconData sf_earbuds_stemless =
+      IconData(0x103346, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol earbuds.stemless.left
+  static const IconData sf_earbuds_stemless_left =
+      IconData(0x103348, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol earbuds.stemless.right
+  static const IconData sf_earbuds_stemless_right =
+      IconData(0x103347, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol earpods
   static const IconData sf_earpods =
       IconData(0x100826, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol ecg.text.page
-  static const IconData sf_ecg_text_page =
-      IconData(0x100CFC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol ecg.text.page.fill
-  static const IconData sf_ecg_text_page_fill =
-      IconData(0x100CFD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol eject
   static const IconData sf_eject =
@@ -9707,6 +10486,36 @@ class SFIcons {
   static const IconData sf_eject_fill =
       IconData(0x1001A6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol electronic.toll.collection
+  static const IconData sf_electronic_toll_collection =
+      IconData(0x102F19, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol electronic.toll.collection.rectangle
+  static const IconData sf_electronic_toll_collection_rectangle =
+      IconData(0x102E9F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol electronic.toll.collection.rectangle.fill
+  static const IconData sf_electronic_toll_collection_rectangle_fill =
+      IconData(0x102EA6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol electronic.toll.collection.rectangle.slash
+  static const IconData sf_electronic_toll_collection_rectangle_slash =
+      IconData(0x102EA0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol electronic.toll.collection.rectangle.slash.fill
+  static const IconData sf_electronic_toll_collection_rectangle_slash_fill =
+      IconData(0x102EA7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol electronic.toll.collection.rectangle.trianglebadge.exclamationmark
+  static const IconData
+      sf_electronic_toll_collection_rectangle_trianglebadge_exclamationmark =
+      IconData(0x102EA2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol electronic.toll.collection.rectangle.trianglebadge.exclamationmark.fill
+  static const IconData
+      sf_electronic_toll_collection_rectangle_trianglebadge_exclamationmark_fill =
+      IconData(0x102EA9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol ellipsis
   static const IconData sf_ellipsis =
       IconData(0x100360, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -9719,9 +10528,21 @@ class SFIcons {
   static const IconData sf_ellipsis_bubble_fill =
       IconData(0x10057B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol ellipsis.calendar
+  static const IconData sf_ellipsis_calendar =
+      IconData(0x1033DD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol ellipsis.circle
   static const IconData sf_ellipsis_circle =
       IconData(0x100361, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol ellipsis.circle.badge
+  static const IconData sf_ellipsis_circle_badge =
+      IconData(0x103217, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol ellipsis.circle.badge.fill
+  static const IconData sf_ellipsis_circle_badge_fill =
+      IconData(0x103218, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol ellipsis.circle.fill
   static const IconData sf_ellipsis_circle_fill =
@@ -9775,6 +10596,10 @@ class SFIcons {
   static const IconData sf_engine_combustion_fill =
       IconData(0x100FB1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol engine.emission.and.drop.2.water.wave.below
+  static const IconData sf_engine_emission_and_drop_2_water_wave_below =
+      IconData(0x102F35, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol engine.emission.and.exclamationmark
   static const IconData sf_engine_emission_and_exclamationmark =
       IconData(0x10295F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -9804,6 +10629,14 @@ class SFIcons {
   static const IconData sf_envelope =
       IconData(0x100355, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol envelope.and.arrow.3.down
+  static const IconData sf_envelope_and_arrow_3_down =
+      IconData(0x102EF4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol envelope.and.arrow.3.down.fill
+  static const IconData sf_envelope_and_arrow_3_down_fill =
+      IconData(0x102EF5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol envelope.and.arrow.trianglehead.branch
   static const IconData sf_envelope_and_arrow_trianglehead_branch =
       IconData(0x100997, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -9811,6 +10644,14 @@ class SFIcons {
   /// IconData for SF Symbol envelope.and.arrow.trianglehead.branch.fill
   static const IconData sf_envelope_and_arrow_trianglehead_branch_fill =
       IconData(0x100998, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol envelope.and.hand.raised
+  static const IconData sf_envelope_and_hand_raised =
+      IconData(0x103378, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol envelope.and.hand.raised.fill
+  static const IconData sf_envelope_and_hand_raised_fill =
+      IconData(0x103379, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol envelope.badge
   static const IconData sf_envelope_badge =
@@ -9820,6 +10661,14 @@ class SFIcons {
   static const IconData sf_envelope_badge_fill =
       IconData(0x10035C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol envelope.badge.minus
+  static const IconData sf_envelope_badge_minus =
+      IconData(0x103235, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol envelope.badge.minus.fill
+  static const IconData sf_envelope_badge_minus_fill =
+      IconData(0x103236, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol envelope.badge.person.crop
   static const IconData sf_envelope_badge_person_crop =
       IconData(0x101DFB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -9827,6 +10676,14 @@ class SFIcons {
   /// IconData for SF Symbol envelope.badge.person.crop.fill
   static const IconData sf_envelope_badge_person_crop_fill =
       IconData(0x101DFD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol envelope.badge.plus
+  static const IconData sf_envelope_badge_plus =
+      IconData(0x103233, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol envelope.badge.plus.fill
+  static const IconData sf_envelope_badge_plus_fill =
+      IconData(0x103234, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol envelope.badge.shield.half.filled
   static const IconData sf_envelope_badge_shield_half_filled =
@@ -9864,9 +10721,53 @@ class SFIcons {
   static const IconData sf_envelope_open_badge_clock =
       IconData(0x1013A7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol envelope.open.badge.clock.fill
+  static const IconData sf_envelope_open_badge_clock_fill =
+      IconData(0x10346D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol envelope.open.fill
   static const IconData sf_envelope_open_fill =
       IconData(0x10035A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol envelope.stack
+  static const IconData sf_envelope_stack =
+      IconData(0x1006EB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol envelope.stack.fill
+  static const IconData sf_envelope_stack_fill =
+      IconData(0x1006EC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol environments
+  static const IconData sf_environments =
+      IconData(0x10201A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol environments.circle
+  static const IconData sf_environments_circle =
+      IconData(0x10201C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol environments.circle.fill
+  static const IconData sf_environments_circle_fill =
+      IconData(0x10201D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol environments.fill
+  static const IconData sf_environments_fill =
+      IconData(0x100B2E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol environments.slash
+  static const IconData sf_environments_slash =
+      IconData(0x10205A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol environments.slash.circle
+  static const IconData sf_environments_slash_circle =
+      IconData(0x10201E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol environments.slash.circle.fill
+  static const IconData sf_environments_slash_circle_fill =
+      IconData(0x10201F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol environments.slash.fill
+  static const IconData sf_environments_slash_fill =
+      IconData(0x101985, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol equal
   static const IconData sf_equal =
@@ -9892,6 +10793,14 @@ class SFIcons {
   static const IconData sf_eraser =
       IconData(0x101740, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol eraser.badge.xmark
+  static const IconData sf_eraser_badge_xmark =
+      IconData(0x103055, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol eraser.badge.xmark.fill
+  static const IconData sf_eraser_badge_xmark_fill =
+      IconData(0x103056, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol eraser.fill
   static const IconData sf_eraser_fill =
       IconData(0x101741, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -9903,6 +10812,22 @@ class SFIcons {
   /// IconData for SF Symbol eraser.line.dashed.fill
   static const IconData sf_eraser_line_dashed_fill =
       IconData(0x10169D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol eraser.slash
+  static const IconData sf_eraser_slash =
+      IconData(0x103059, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol eraser.slash.fill
+  static const IconData sf_eraser_slash_fill =
+      IconData(0x10305A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol eraser.trianglebadge.exclamationmark
+  static const IconData sf_eraser_trianglebadge_exclamationmark =
+      IconData(0x103057, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol eraser.trianglebadge.exclamationmark.fill
+  static const IconData sf_eraser_trianglebadge_exclamationmark_fill =
+      IconData(0x103058, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol escape
   static const IconData sf_escape =
@@ -10193,6 +11118,14 @@ class SFIcons {
   static const IconData sf_exclamationmark_magnifyingglass =
       IconData(0x102202, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol exclamationmark.message
+  static const IconData sf_exclamationmark_message =
+      IconData(0x102DE9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol exclamationmark.message.fill
+  static const IconData sf_exclamationmark_message_fill =
+      IconData(0x102DEA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol exclamationmark.octagon
   static const IconData sf_exclamationmark_octagon =
       IconData(0x10062F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -10236,6 +11169,14 @@ class SFIcons {
   /// IconData for SF Symbol exclamationmark.triangle.fill
   static const IconData sf_exclamationmark_triangle_fill =
       IconData(0x1001FF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol exclamationmark.triangle.text.page
+  static const IconData sf_exclamationmark_triangle_text_page =
+      IconData(0x102E5E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol exclamationmark.triangle.text.page.fill
+  static const IconData sf_exclamationmark_triangle_text_page_fill =
+      IconData(0x102E5F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol exclamationmark.warninglight
   static const IconData sf_exclamationmark_warninglight =
@@ -10365,6 +11306,14 @@ class SFIcons {
   static const IconData sf_eye_fill =
       IconData(0x1002EE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol eye.half.closed
+  static const IconData sf_eye_half_closed =
+      IconData(0x102F41, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol eye.half.closed.fill
+  static const IconData sf_eye_half_closed_fill =
+      IconData(0x102F42, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol eye.slash
   static const IconData sf_eye_slash =
       IconData(0x1002EF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -10449,6 +11398,10 @@ class SFIcons {
   static const IconData sf_f_cursive_circle_fill =
       IconData(0x100768, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol f.cursive.slash
+  static const IconData sf_f_cursive_slash =
+      IconData(0x10348C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol f.square
   static const IconData sf_f_square =
       IconData(0x10009E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -10497,6 +11450,16 @@ class SFIcons {
   static const IconData sf_fan_and_light_ceiling_fill =
       IconData(0x1013BA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol fan.badge.arrow.up.and.down.and.arrow.left.and.right
+  static const IconData
+      sf_fan_badge_arrow_up_and_down_and_arrow_left_and_right =
+      IconData(0x10313B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol fan.badge.arrow.up.and.down.and.arrow.left.and.right.fill
+  static const IconData
+      sf_fan_badge_arrow_up_and_down_and_arrow_left_and_right_fill =
+      IconData(0x10313C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol fan.badge.automatic
   static const IconData sf_fan_badge_automatic =
       IconData(0x101C89, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -10512,6 +11475,14 @@ class SFIcons {
   /// IconData for SF Symbol fan.ceiling.fill
   static const IconData sf_fan_ceiling_fill =
       IconData(0x1013B9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol fan.circle
+  static const IconData sf_fan_circle =
+      IconData(0x1030A2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol fan.circle.fill
+  static const IconData sf_fan_circle_fill =
+      IconData(0x1030A3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol fan.desk
   static const IconData sf_fan_desk =
@@ -10532,6 +11503,10 @@ class SFIcons {
   /// IconData for SF Symbol fan.floor.fill
   static const IconData sf_fan_floor_fill =
       IconData(0x10149B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol fan.gauge.open
+  static const IconData sf_fan_gauge_open =
+      IconData(0x10309E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol fan.oscillation
   static const IconData sf_fan_oscillation =
@@ -11489,9 +12464,18 @@ class SFIcons {
   static const IconData sf_figure_seated_side_left =
       IconData(0x101EBC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol figure.seated.side.left.air.distribution.indirect
+  static const IconData sf_figure_seated_side_left_air_distribution_indirect =
+      IconData(0x103143, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol figure.seated.side.left.air.distribution.lower
   static const IconData sf_figure_seated_side_left_air_distribution_lower =
       IconData(0x101076, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol figure.seated.side.left.air.distribution.lower.angled.and.upper.angled
+  static const IconData
+      sf_figure_seated_side_left_air_distribution_lower_angled_and_upper_angled =
+      IconData(0x10313F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol figure.seated.side.left.air.distribution.middle
   static const IconData sf_figure_seated_side_left_air_distribution_middle =
@@ -11510,6 +12494,16 @@ class SFIcons {
   /// IconData for SF Symbol figure.seated.side.left.air.distribution.upper
   static const IconData sf_figure_seated_side_left_air_distribution_upper =
       IconData(0x101077, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol figure.seated.side.left.air.distribution.upper.and.middle.and.lower
+  static const IconData
+      sf_figure_seated_side_left_air_distribution_upper_and_middle_and_lower =
+      IconData(0x102E1E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol figure.seated.side.left.air.distribution.upper.angled.and.dottedline.and.lower.angled
+  static const IconData
+      sf_figure_seated_side_left_air_distribution_upper_angled_and_dottedline_and_lower_angled =
+      IconData(0x103141, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol figure.seated.side.left.air.distribution.upper.angled.and.lower.angled
   static const IconData
@@ -11598,9 +12592,18 @@ class SFIcons {
   static const IconData sf_figure_seated_side_right =
       IconData(0x1029CF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol figure.seated.side.right.air.distribution.indirect
+  static const IconData sf_figure_seated_side_right_air_distribution_indirect =
+      IconData(0x103144, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol figure.seated.side.right.air.distribution.lower
   static const IconData sf_figure_seated_side_right_air_distribution_lower =
       IconData(0x1029D1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol figure.seated.side.right.air.distribution.lower.angled.and.upper.angled
+  static const IconData
+      sf_figure_seated_side_right_air_distribution_lower_angled_and_upper_angled =
+      IconData(0x103140, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol figure.seated.side.right.air.distribution.middle
   static const IconData sf_figure_seated_side_right_air_distribution_middle =
@@ -11619,6 +12622,16 @@ class SFIcons {
   /// IconData for SF Symbol figure.seated.side.right.air.distribution.upper
   static const IconData sf_figure_seated_side_right_air_distribution_upper =
       IconData(0x1029D0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol figure.seated.side.right.air.distribution.upper.and.middle.and.lower
+  static const IconData
+      sf_figure_seated_side_right_air_distribution_upper_and_middle_and_lower =
+      IconData(0x102E1F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol figure.seated.side.right.air.distribution.upper.angled.and.dottedline.and.lower.angled
+  static const IconData
+      sf_figure_seated_side_right_air_distribution_upper_angled_and_dottedline_and_lower_angled =
+      IconData(0x103142, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol figure.seated.side.right.air.distribution.upper.angled.and.lower.angled
   static const IconData
@@ -11654,6 +12667,10 @@ class SFIcons {
   /// IconData for SF Symbol figure.seated.side.right.automatic
   static const IconData sf_figure_seated_side_right_automatic =
       IconData(0x1029E1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol figure.seated.side.right.child.lap
+  static const IconData sf_figure_seated_side_right_child_lap =
+      IconData(0x103310, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol figure.seated.side.right.fan
   static const IconData sf_figure_seated_side_right_fan =
@@ -11971,6 +12988,18 @@ class SFIcons {
   static const IconData sf_figure_walk_motion_trianglebadge_exclamationmark =
       IconData(0x101DDA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol figure.walk.suitcase.rolling
+  static const IconData sf_figure_walk_suitcase_rolling =
+      IconData(0x1032F1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol figure.walk.suitcase.rolling.circle
+  static const IconData sf_figure_walk_suitcase_rolling_circle =
+      IconData(0x1032F2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol figure.walk.suitcase.rolling.circle.fill
+  static const IconData sf_figure_walk_suitcase_rolling_circle_fill =
+      IconData(0x1032F3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol figure.walk.treadmill
   static const IconData sf_figure_walk_treadmill =
       IconData(0x1026C6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -12051,8 +13080,8 @@ class SFIcons {
   static const IconData sf_figure_yoga_circle_fill =
       IconData(0x102747, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol filemenu.and.cursorarrow
-  static const IconData sf_filemenu_and_cursorarrow =
+  /// IconData for SF Symbol filemenu.and.pointer.arrow
+  static const IconData sf_filemenu_and_pointer_arrow =
       IconData(0x100BEA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol filemenu.and.selection
@@ -12082,6 +13111,10 @@ class SFIcons {
   /// IconData for SF Symbol film.stack.fill
   static const IconData sf_film_stack_fill =
       IconData(0x101497, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol finder
+  static const IconData sf_finder =
+      IconData(0x10096F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol fire.extinguisher
   static const IconData sf_fire_extinguisher =
@@ -12191,6 +13224,10 @@ class SFIcons {
   static const IconData sf_flag_pattern_checkered_circle_fill =
       IconData(0x10177D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol flag.pattern.checkered.lc
+  static const IconData sf_flag_pattern_checkered_lc =
+      IconData(0x102F0A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol flag.slash
   static const IconData sf_flag_slash =
       IconData(0x1002CD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -12230,6 +13267,10 @@ class SFIcons {
   /// IconData for SF Symbol flame.fill
   static const IconData sf_flame_fill =
       IconData(0x10066D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol flame.gauge.open
+  static const IconData sf_flame_gauge_open =
+      IconData(0x10309D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol flashlight.off.circle
   static const IconData sf_flashlight_off_circle =
@@ -12554,6 +13595,10 @@ class SFIcons {
   static const IconData sf_frying_pan_fill =
       IconData(0x101406, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol fuel.filter.water
+  static const IconData sf_fuel_filter_water =
+      IconData(0x102F0B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol fuelpump
   static const IconData sf_fuelpump =
       IconData(0x100D5E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -12606,6 +13651,14 @@ class SFIcons {
   static const IconData sf_fuelpump_slash_fill =
       IconData(0x101C1B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol fuelpump.thermometer
+  static const IconData sf_fuelpump_thermometer =
+      IconData(0x103139, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol fuelpump.thermometer.fill
+  static const IconData sf_fuelpump_thermometer_fill =
+      IconData(0x10313A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol function
   static const IconData sf_function =
       IconData(0x10016E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -12645,6 +13698,23 @@ class SFIcons {
   /// IconData for SF Symbol gamecontroller.fill
   static const IconData sf_gamecontroller_fill =
       IconData(0x1006F9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol gauge.chart.lefthalf.righthalf
+  static const IconData sf_gauge_chart_lefthalf_righthalf =
+      IconData(0x10328A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol gauge.chart.leftthird.topthird.rightthird
+  static const IconData sf_gauge_chart_leftthird_topthird_rightthird =
+      IconData(0x10328B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol gauge.open
+  static const IconData sf_gauge_open =
+      IconData(0x103084, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol gauge.open.righthalf.dotted.with.needle.and.arrow.trianglehead.backward
+  static const IconData
+      sf_gauge_open_righthalf_dotted_with_needle_and_arrow_trianglehead_backward =
+      IconData(0x102F11, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol gauge.open.with.lines.needle.33percent
   static const IconData sf_gauge_open_with_lines_needle_33percent =
@@ -12830,6 +13900,14 @@ class SFIcons {
   static const IconData sf_globe_badge_chevron_backward =
       IconData(0x10114D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol globe.badge.clock
+  static const IconData sf_globe_badge_clock =
+      IconData(0x10347A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol globe.badge.clock.fill
+  static const IconData sf_globe_badge_clock_fill =
+      IconData(0x103507, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol globe.central.south.asia
   static const IconData sf_globe_central_south_asia =
       IconData(0x1011F2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -12854,6 +13932,10 @@ class SFIcons {
   static const IconData sf_globe_europe_africa_fill =
       IconData(0x100D74, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol globe.fill
+  static const IconData sf_globe_fill =
+      IconData(0x103054, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol glowplug
   static const IconData sf_glowplug =
       IconData(0x101031, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -12873,6 +13955,14 @@ class SFIcons {
   /// IconData for SF Symbol graduationcap.fill
   static const IconData sf_graduationcap_fill =
       IconData(0x100AD4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol graph.2d
+  static const IconData sf_graph_2d =
+      IconData(0x10321F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol graph.3d
+  static const IconData sf_graph_3d =
+      IconData(0x103220, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol greaterthan
   static const IconData sf_greaterthan =
@@ -12983,6 +14073,22 @@ class SFIcons {
   /// IconData for SF Symbol guaranisign.square.fill
   static const IconData sf_guaranisign_square_fill =
       IconData(0x100600, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol guidepoint.horizontal
+  static const IconData sf_guidepoint_horizontal =
+      IconData(0x103409, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol guidepoint.vertical
+  static const IconData sf_guidepoint_vertical =
+      IconData(0x103575, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol guidepoint.vertical.arrowtriangle.forward
+  static const IconData sf_guidepoint_vertical_arrowtriangle_forward =
+      IconData(0x1030B2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol guidepoint.vertical.numbers
+  static const IconData sf_guidepoint_vertical_numbers =
+      IconData(0x1030B3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol guitars
   static const IconData sf_guitars =
@@ -13236,6 +14342,30 @@ class SFIcons {
   static const IconData sf_hand_thumbsdown_fill =
       IconData(0x100282, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol hand.thumbsdown.filled.hand.thumbsup
+  static const IconData sf_hand_thumbsdown_filled_hand_thumbsup =
+      IconData(0x103486, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol hand.thumbsdown.hand.thumbsup
+  static const IconData sf_hand_thumbsdown_hand_thumbsup =
+      IconData(0x103484, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol hand.thumbsdown.hand.thumbsup.fill
+  static const IconData sf_hand_thumbsdown_hand_thumbsup_fill =
+      IconData(0x103485, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol hand.thumbsdown.hand.thumbsup.filled
+  static const IconData sf_hand_thumbsdown_hand_thumbsup_filled =
+      IconData(0x103487, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol hand.thumbsdown.slash
+  static const IconData sf_hand_thumbsdown_slash =
+      IconData(0x102DA9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol hand.thumbsdown.slash.fill
+  static const IconData sf_hand_thumbsdown_slash_fill =
+      IconData(0x102DAA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol hand.thumbsup
   static const IconData sf_hand_thumbsup =
       IconData(0x10027F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -13251,6 +14381,14 @@ class SFIcons {
   /// IconData for SF Symbol hand.thumbsup.fill
   static const IconData sf_hand_thumbsup_fill =
       IconData(0x100280, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol hand.thumbsup.slash
+  static const IconData sf_hand_thumbsup_slash =
+      IconData(0x102DA5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol hand.thumbsup.slash.fill
+  static const IconData sf_hand_thumbsup_slash_fill =
+      IconData(0x102DA6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol hand.wave
   static const IconData sf_hand_wave =
@@ -13275,6 +14413,14 @@ class SFIcons {
   /// IconData for SF Symbol handbag.fill
   static const IconData sf_handbag_fill =
       IconData(0x1017B9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol handbag.sensor.tag.radiowaves.left.and.right
+  static const IconData sf_handbag_sensor_tag_radiowaves_left_and_right =
+      IconData(0x10303D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol handbag.sensor.tag.radiowaves.left.and.right.fill
+  static const IconData sf_handbag_sensor_tag_radiowaves_left_and_right_fill =
+      IconData(0x10303E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol hands.and.sparkles
   static const IconData sf_hands_and_sparkles =
@@ -13336,8 +14482,8 @@ class SFIcons {
   static const IconData sf_hazardsign_fill =
       IconData(0x101563, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol head.profile.arrow.forward.and.vision.pro
-  static const IconData sf_head_profile_arrow_forward_and_vision_pro =
+  /// IconData for SF Symbol head.profile.vision.pro.remove
+  static const IconData sf_head_profile_vision_pro_remove =
       IconData(0x1017F9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol headlight.daytime
@@ -13384,6 +14530,23 @@ class SFIcons {
   static const IconData sf_headphones_circle_fill =
       IconData(0x1004BF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol headphones.dots
+  static const IconData sf_headphones_dots =
+      IconData(0x102E14, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol headphones.over.ear
+  static const IconData sf_headphones_over_ear =
+      IconData(0x103345, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol headphones.sensor.tag.radiowaves.left.and.right
+  static const IconData sf_headphones_sensor_tag_radiowaves_left_and_right =
+      IconData(0x10303F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol headphones.sensor.tag.radiowaves.left.and.right.fill
+  static const IconData
+      sf_headphones_sensor_tag_radiowaves_left_and_right_fill =
+      IconData(0x103040, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol headphones.slash
   static const IconData sf_headphones_slash =
       IconData(0x102B02, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -13420,6 +14583,22 @@ class SFIcons {
   static const IconData sf_heart =
       IconData(0x1002B4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol heart.badge.bolt
+  static const IconData sf_heart_badge_bolt =
+      IconData(0x1034EB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol heart.badge.bolt.fill
+  static const IconData sf_heart_badge_bolt_fill =
+      IconData(0x1034EC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol heart.badge.bolt.slash
+  static const IconData sf_heart_badge_bolt_slash =
+      IconData(0x1034EF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol heart.badge.bolt.slash.fill
+  static const IconData sf_heart_badge_bolt_slash_fill =
+      IconData(0x1034F0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol heart.circle
   static const IconData sf_heart_circle =
       IconData(0x1002B8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -13431,6 +14610,10 @@ class SFIcons {
   /// IconData for SF Symbol heart.fill
   static const IconData sf_heart_fill =
       IconData(0x1002B5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol heart.gauge.open
+  static const IconData sf_heart_gauge_open =
+      IconData(0x1030A1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol heart.rectangle
   static const IconData sf_heart_rectangle =
@@ -13491,6 +14674,18 @@ class SFIcons {
   /// IconData for SF Symbol heat.waves.and.fan
   static const IconData sf_heat_waves_and_fan =
       IconData(0x102B24, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol heat.waves.circle
+  static const IconData sf_heat_waves_circle =
+      IconData(0x1030A4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol heat.waves.circle.fill
+  static const IconData sf_heat_waves_circle_fill =
+      IconData(0x1030A5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol heat.waves.gauge.open
+  static const IconData sf_heat_waves_gauge_open =
+      IconData(0x10309F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol heater.vertical
   static const IconData sf_heater_vertical =
@@ -13660,6 +14855,10 @@ class SFIcons {
   static const IconData sf_highlighter =
       IconData(0x100987, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol highlighter.badge.ellipsis
+  static const IconData sf_highlighter_badge_ellipsis =
+      IconData(0x10349A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol hockey.puck
   static const IconData sf_hockey_puck =
       IconData(0x1016FD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -13679,10 +14878,6 @@ class SFIcons {
   /// IconData for SF Symbol hold.brakesignal
   static const IconData sf_hold_brakesignal =
       IconData(0x1012CC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol homekit
-  static const IconData sf_homekit =
-      IconData(0x100800, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol homepod
   static const IconData sf_homepod =
@@ -13752,6 +14947,14 @@ class SFIcons {
   static const IconData sf_homepod_arrow_forward_fill =
       IconData(0x1022DF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol homepod.badge.checkmark
+  static const IconData sf_homepod_badge_checkmark =
+      IconData(0x103270, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol homepod.badge.checkmark.fill
+  static const IconData sf_homepod_badge_checkmark_fill =
+      IconData(0x103271, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol homepod.badge.minus
   static const IconData sf_homepod_badge_minus =
       IconData(0x1022E5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -13800,6 +15003,14 @@ class SFIcons {
   static const IconData sf_homepod_mini_2_fill =
       IconData(0x100DEA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol homepod.mini.and.appletv
+  static const IconData sf_homepod_mini_and_appletv =
+      IconData(0x100EF9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol homepod.mini.and.appletv.fill
+  static const IconData sf_homepod_mini_and_appletv_fill =
+      IconData(0x100EFA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol homepod.mini.arrow.forward
   static const IconData sf_homepod_mini_arrow_forward =
       IconData(0x1022DB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -13807,6 +15018,14 @@ class SFIcons {
   /// IconData for SF Symbol homepod.mini.arrow.forward.fill
   static const IconData sf_homepod_mini_arrow_forward_fill =
       IconData(0x1022DC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol homepod.mini.badge.checkmark
+  static const IconData sf_homepod_mini_badge_checkmark =
+      IconData(0x103278, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol homepod.mini.badge.checkmark.fill
+  static const IconData sf_homepod_mini_badge_checkmark_fill =
+      IconData(0x103279, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol homepod.mini.badge.minus
   static const IconData sf_homepod_mini_badge_minus =
@@ -13828,14 +15047,6 @@ class SFIcons {
   static const IconData sf_homepod_mini_fill =
       IconData(0x100DE8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol homepodmini.and.appletv
-  static const IconData sf_homepodmini_and_appletv =
-      IconData(0x100EF9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol homepodmini.and.appletv.fill
-  static const IconData sf_homepodmini_and_appletv_fill =
-      IconData(0x100EFA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
   /// IconData for SF Symbol horn
   static const IconData sf_horn =
       IconData(0x101135, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -13856,13 +15067,13 @@ class SFIcons {
   static const IconData sf_hourglass =
       IconData(0x100587, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol hourglass.and.lock
-  static const IconData sf_hourglass_and_lock =
-      IconData(0x1021D7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
   /// IconData for SF Symbol hourglass.badge.eye
   static const IconData sf_hourglass_badge_eye =
       IconData(0x102736, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol hourglass.badge.lock
+  static const IconData sf_hourglass_badge_lock =
+      IconData(0x1021D7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol hourglass.badge.plus
   static const IconData sf_hourglass_badge_plus =
@@ -14018,6 +15229,14 @@ class SFIcons {
   static const IconData sf_humidifier_and_droplets_fill =
       IconData(0x101507, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol humidifier.and.ellipsis
+  static const IconData sf_humidifier_and_ellipsis =
+      IconData(0x1034A6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol humidifier.and.ellipsis.fill
+  static const IconData sf_humidifier_and_ellipsis_fill =
+      IconData(0x1034A7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol humidifier.fill
   static const IconData sf_humidifier_fill =
       IconData(0x101619, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -14041,6 +15260,26 @@ class SFIcons {
   /// IconData for SF Symbol hurricane.circle.fill
   static const IconData sf_hurricane_circle_fill =
       IconData(0x1016F8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol hydrogen
+  static const IconData sf_hydrogen =
+      IconData(0x102F05, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol hydrogen.circle
+  static const IconData sf_hydrogen_circle =
+      IconData(0x102F06, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol hydrogen.circle.fill
+  static const IconData sf_hydrogen_circle_fill =
+      IconData(0x102F07, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol hydrogen.square
+  static const IconData sf_hydrogen_square =
+      IconData(0x102F08, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol hydrogen.square.fill
+  static const IconData sf_hydrogen_square_fill =
+      IconData(0x102F09, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol i.circle
   static const IconData sf_i_circle =
@@ -14085,6 +15324,10 @@ class SFIcons {
   /// IconData for SF Symbol icloud.circle.fill
   static const IconData sf_icloud_circle_fill =
       IconData(0x10030E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol icloud.dashed
+  static const IconData sf_icloud_dashed =
+      IconData(0x10068F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol icloud.fill
   static const IconData sf_icloud_fill =
@@ -14196,6 +15439,14 @@ class SFIcons {
   static const IconData sf_info_circle_fill =
       IconData(0x100175, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol info.circle.text.page
+  static const IconData sf_info_circle_text_page =
+      IconData(0x102E5A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol info.circle.text.page.fill
+  static const IconData sf_info_circle_text_page_fill =
+      IconData(0x102E5B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol info.square
   static const IconData sf_info_square =
       IconData(0x101287, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -14203,6 +15454,14 @@ class SFIcons {
   /// IconData for SF Symbol info.square.fill
   static const IconData sf_info_square_fill =
       IconData(0x101288, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol info.triangle
+  static const IconData sf_info_triangle =
+      IconData(0x102E69, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol info.triangle.fill
+  static const IconData sf_info_triangle_fill =
+      IconData(0x102E6A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol info.windshield
   static const IconData sf_info_windshield =
@@ -14232,6 +15491,10 @@ class SFIcons {
   static const IconData sf_inset_filled_bottomhalf_tophalf_rectangle =
       IconData(0x102BA1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol inset.filled.bottomleading.bottomtrailing.rectangle
+  static const IconData sf_inset_filled_bottomleading_bottomtrailing_rectangle =
+      IconData(0x103438, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol inset.filled.bottomleading.rectangle
   static const IconData sf_inset_filled_bottomleading_rectangle =
       IconData(0x10106B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -14239,6 +15502,10 @@ class SFIcons {
   /// IconData for SF Symbol inset.filled.bottomleading.rectangle.portrait
   static const IconData sf_inset_filled_bottomleading_rectangle_portrait =
       IconData(0x101073, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol inset.filled.bottomleft.bottomright.rectangle
+  static const IconData sf_inset_filled_bottomleft_bottomright_rectangle =
+      IconData(0x103437, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol inset.filled.bottomleft.rectangle
   static const IconData sf_inset_filled_bottomleft_rectangle =
@@ -14304,6 +15571,10 @@ class SFIcons {
   static const IconData sf_inset_filled_circle_dashed =
       IconData(0x1009D2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol inset.filled.circle.slash
+  static const IconData sf_inset_filled_circle_slash =
+      IconData(0x103425, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol inset.filled.diamond
   static const IconData sf_inset_filled_diamond =
       IconData(0x100F97, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -14362,6 +15633,11 @@ class SFIcons {
       sf_inset_filled_lefthalf_topright_bottomright_rectangle =
       IconData(0x1029EE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol inset.filled.leftthird.middlethird.rightthird.rectangle
+  static const IconData
+      sf_inset_filled_leftthird_middlethird_rightthird_rectangle =
+      IconData(0x1031D0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol inset.filled.leftthird.rectangle
   static const IconData sf_inset_filled_leftthird_rectangle =
       IconData(0x100A31, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -14382,17 +15658,34 @@ class SFIcons {
   static const IconData sf_inset_filled_oval_portrait =
       IconData(0x100F9D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol inset.filled.pano
+  static const IconData sf_inset_filled_pano =
+      IconData(0x1025A1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol inset.filled.rectangle
   static const IconData sf_inset_filled_rectangle =
       IconData(0x100933, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol inset.filled.rectangle.and.cursorarrow
-  static const IconData sf_inset_filled_rectangle_and_cursorarrow =
-      IconData(0x1021D5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
   /// IconData for SF Symbol inset.filled.rectangle.and.person.filled
   static const IconData sf_inset_filled_rectangle_and_person_filled =
       IconData(0x101140, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol inset.filled.rectangle.and.person.filled.circle
+  static const IconData sf_inset_filled_rectangle_and_person_filled_circle =
+      IconData(0x102E06, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol inset.filled.rectangle.and.person.filled.circle.fill
+  static const IconData
+      sf_inset_filled_rectangle_and_person_filled_circle_fill =
+      IconData(0x102E07, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol inset.filled.rectangle.and.person.filled.slash
+  static const IconData sf_inset_filled_rectangle_and_person_filled_slash =
+      IconData(0x10359E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol inset.filled.rectangle.and.pointer.arrow
+  static const IconData sf_inset_filled_rectangle_and_pointer_arrow =
+      IconData(0x1021D5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol inset.filled.rectangle.badge.record
   static const IconData sf_inset_filled_rectangle_badge_record =
@@ -14501,6 +15794,11 @@ class SFIcons {
   static const IconData sf_inset_filled_topright_rectangle_portrait =
       IconData(0x100F81, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol inset.filled.topthird.middlethird.bottomthird.rectangle
+  static const IconData
+      sf_inset_filled_topthird_middlethird_bottomthird_rectangle =
+      IconData(0x103203, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol inset.filled.topthird.rectangle
   static const IconData sf_inset_filled_topthird_rectangle =
       IconData(0x100D0A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -14573,6 +15871,10 @@ class SFIcons {
   static const IconData sf_ipad_and_arrow_forward =
       IconData(0x100DC0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol ipad.badge.checkmark
+  static const IconData sf_ipad_badge_checkmark =
+      IconData(0x103256, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol ipad.badge.exclamationmark
   static const IconData sf_ipad_badge_exclamationmark =
       IconData(0x102559, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -14609,6 +15911,10 @@ class SFIcons {
   static const IconData sf_ipad_gen1_badge_play =
       IconData(0x100D12, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol ipad.gen1.crop.homebutton.circle
+  static const IconData sf_ipad_gen1_crop_homebutton_circle =
+      IconData(0x1033DF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol ipad.gen1.landscape
   static const IconData sf_ipad_gen1_landscape =
       IconData(0x100953, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -14628,6 +15934,10 @@ class SFIcons {
   /// IconData for SF Symbol ipad.gen1.landscape.slash
   static const IconData sf_ipad_gen1_landscape_slash =
       IconData(0x102C96, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol ipad.gen1.sizes
+  static const IconData sf_ipad_gen1_sizes =
+      IconData(0x1018F5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol ipad.gen1.slash
   static const IconData sf_ipad_gen1_slash =
@@ -14669,6 +15979,10 @@ class SFIcons {
   static const IconData sf_ipad_gen2_landscape_slash =
       IconData(0x102C9A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol ipad.gen2.sizes
+  static const IconData sf_ipad_gen2_sizes =
+      IconData(0x10324C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol ipad.gen2.slash
   static const IconData sf_ipad_gen2_slash =
       IconData(0x102C98, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -14677,6 +15991,10 @@ class SFIcons {
   static const IconData sf_ipad_landscape =
       IconData(0x100954, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol ipad.landscape.and.applewatch
+  static const IconData sf_ipad_landscape_and_applewatch =
+      IconData(0x10350B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol ipad.landscape.and.iphone
   static const IconData sf_ipad_landscape_and_iphone =
       IconData(0x10111F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -14684,6 +16002,10 @@ class SFIcons {
   /// IconData for SF Symbol ipad.landscape.and.iphone.slash
   static const IconData sf_ipad_landscape_and_iphone_slash =
       IconData(0x1012DF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol ipad.landscape.and.ipod
+  static const IconData sf_ipad_landscape_and_ipod =
+      IconData(0x10350D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol ipad.landscape.badge.exclamationmark
   static const IconData sf_ipad_landscape_badge_exclamationmark =
@@ -14729,9 +16051,21 @@ class SFIcons {
   static const IconData sf_iphone_and_arrow_right_outward =
       IconData(0x1023FB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol iphone.and.ipod
+  static const IconData sf_iphone_and_ipod =
+      IconData(0x10350F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol iphone.and.vision.pro
+  static const IconData sf_iphone_and_vision_pro =
+      IconData(0x103515, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol iphone.app.switcher
   static const IconData sf_iphone_app_switcher =
       IconData(0x102939, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol iphone.badge.checkmark
+  static const IconData sf_iphone_badge_checkmark =
+      IconData(0x103254, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol iphone.badge.exclamationmark
   static const IconData sf_iphone_badge_exclamationmark =
@@ -14797,6 +16131,10 @@ class SFIcons {
   static const IconData sf_iphone_gen1_crop_circle =
       IconData(0x102651, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol iphone.gen1.crop.homebutton.circle
+  static const IconData sf_iphone_gen1_crop_homebutton_circle =
+      IconData(0x1030B4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol iphone.gen1.landscape
   static const IconData sf_iphone_gen1_landscape =
       IconData(0x100D0E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -14820,6 +16158,10 @@ class SFIcons {
   /// IconData for SF Symbol iphone.gen1.radiowaves.left.and.right.circle.fill
   static const IconData sf_iphone_gen1_radiowaves_left_and_right_circle_fill =
       IconData(0x10115B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol iphone.gen1.sizes
+  static const IconData sf_iphone_gen1_sizes =
+      IconData(0x103248, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol iphone.gen1.slash
   static const IconData sf_iphone_gen1_slash =
@@ -14889,6 +16231,10 @@ class SFIcons {
   static const IconData sf_iphone_gen2_radiowaves_left_and_right_circle_fill =
       IconData(0x1017E2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol iphone.gen2.sizes
+  static const IconData sf_iphone_gen2_sizes =
+      IconData(0x1018F3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol iphone.gen2.slash
   static const IconData sf_iphone_gen2_slash =
       IconData(0x1017E3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -14957,6 +16303,10 @@ class SFIcons {
   static const IconData sf_iphone_gen3_radiowaves_left_and_right_circle_fill =
       IconData(0x1012B4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol iphone.gen3.sizes
+  static const IconData sf_iphone_gen3_sizes =
+      IconData(0x10324A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol iphone.gen3.slash
   static const IconData sf_iphone_gen3_slash =
       IconData(0x1012B5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -14976,6 +16326,15 @@ class SFIcons {
   /// IconData for SF Symbol iphone.motion
   static const IconData sf_iphone_motion =
       IconData(0x102612, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol iphone.pattern.diagonalline
+  static const IconData sf_iphone_pattern_diagonalline =
+      IconData(0x102928, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol iphone.pattern.diagonalline.on.rectangle.portrait.dashed
+  static const IconData
+      sf_iphone_pattern_diagonalline_on_rectangle_portrait_dashed =
+      IconData(0x102FE5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol iphone.radiowaves.left.and.right
   static const IconData sf_iphone_radiowaves_left_and_right =
@@ -15020,6 +16379,14 @@ class SFIcons {
   /// IconData for SF Symbol ipod
   static const IconData sf_ipod =
       IconData(0x1008BA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol ipod.and.applewatch
+  static const IconData sf_ipod_and_applewatch =
+      IconData(0x103513, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol ipod.and.vision.pro
+  static const IconData sf_ipod_and_vision_pro =
+      IconData(0x103517, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol ipod.shuffle.gen1
   static const IconData sf_ipod_shuffle_gen1 =
@@ -15089,9 +16456,25 @@ class SFIcons {
   static const IconData sf_jacket =
       IconData(0x1023EC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol jacket.circle
+  static const IconData sf_jacket_circle =
+      IconData(0x103049, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol jacket.circle.fill
+  static const IconData sf_jacket_circle_fill =
+      IconData(0x10304A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol jacket.fill
   static const IconData sf_jacket_fill =
       IconData(0x1023ED, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol jacket.sensor.tag.radiowaves.left.and.right
+  static const IconData sf_jacket_sensor_tag_radiowaves_left_and_right =
+      IconData(0x103041, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol jacket.sensor.tag.radiowaves.left.and.right.fill
+  static const IconData sf_jacket_sensor_tag_radiowaves_left_and_right_fill =
+      IconData(0x103042, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol k
   static const IconData sf_k =
@@ -15137,6 +16520,14 @@ class SFIcons {
   static const IconData sf_key_car_radiowaves_forward_fill =
       IconData(0x102B33, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol key.car.side
+  static const IconData sf_key_car_side =
+      IconData(0x102EF6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol key.car.side.fill
+  static const IconData sf_key_car_side_fill =
+      IconData(0x102EF7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol key.card
   static const IconData sf_key_card =
       IconData(0x102B20, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -15144,6 +16535,22 @@ class SFIcons {
   /// IconData for SF Symbol key.card.fill
   static const IconData sf_key_card_fill =
       IconData(0x102B21, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol key.circle
+  static const IconData sf_key_circle =
+      IconData(0x103047, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol key.circle.fill
+  static const IconData sf_key_circle_fill =
+      IconData(0x103048, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol key.convertible.side
+  static const IconData sf_key_convertible_side =
+      IconData(0x102EFA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol key.convertible.side.fill
+  static const IconData sf_key_convertible_side_fill =
+      IconData(0x102EFB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol key.fill
   static const IconData sf_key_fill =
@@ -15181,6 +16588,22 @@ class SFIcons {
   static const IconData sf_key_radiowaves_forward_slash_fill =
       IconData(0x1021F0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol key.sensor.tag.radiowaves.left.and.right
+  static const IconData sf_key_sensor_tag_radiowaves_left_and_right =
+      IconData(0x103033, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol key.sensor.tag.radiowaves.left.and.right.fill
+  static const IconData sf_key_sensor_tag_radiowaves_left_and_right_fill =
+      IconData(0x103034, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol key.shield
+  static const IconData sf_key_shield =
+      IconData(0x1031DE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol key.shield.fill
+  static const IconData sf_key_shield_fill =
+      IconData(0x1031DF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol key.slash
   static const IconData sf_key_slash =
       IconData(0x102166, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -15188,6 +16611,22 @@ class SFIcons {
   /// IconData for SF Symbol key.slash.fill
   static const IconData sf_key_slash_fill =
       IconData(0x102167, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol key.suv.side
+  static const IconData sf_key_suv_side =
+      IconData(0x102EF8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol key.suv.side.fill
+  static const IconData sf_key_suv_side_fill =
+      IconData(0x102EF9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol key.truck.pickup.side
+  static const IconData sf_key_truck_pickup_side =
+      IconData(0x102EFC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol key.truck.pickup.side.fill
+  static const IconData sf_key_truck_pickup_side_fill =
+      IconData(0x102EFD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol key.viewfinder
   static const IconData sf_key_viewfinder =
@@ -15530,6 +16969,10 @@ class SFIcons {
   static const IconData sf_laptopcomputer_and_arrow_down =
       IconData(0x100DBF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol laptopcomputer.badge.checkmark
+  static const IconData sf_laptopcomputer_badge_checkmark =
+      IconData(0x103258, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol laptopcomputer.slash
   static const IconData sf_laptopcomputer_slash =
       IconData(0x1012AD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -15610,6 +17053,10 @@ class SFIcons {
   /// IconData for SF Symbol laurel.leading
   static const IconData sf_laurel_leading =
       IconData(0x101298, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol laurel.leading.laurel.trailing
+  static const IconData sf_laurel_leading_laurel_trailing =
+      IconData(0x102D9F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol laurel.trailing
   static const IconData sf_laurel_trailing =
@@ -15996,9 +17443,13 @@ class SFIcons {
   static const IconData sf_line_diagonal =
       IconData(0x100AF0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol line.diagonal.arrow
-  static const IconData sf_line_diagonal_arrow =
+  /// IconData for SF Symbol line.diagonal.trianglehead.up.right
+  static const IconData sf_line_diagonal_trianglehead_up_right =
       IconData(0x100AF1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol line.diagonal.trianglehead.up.right.left.down
+  static const IconData sf_line_diagonal_trianglehead_up_right_left_down =
+      IconData(0x1033E0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol line.horizontal.star.fill.line.horizontal
   static const IconData sf_line_horizontal_star_fill_line_horizontal =
@@ -16007,6 +17458,10 @@ class SFIcons {
   /// IconData for SF Symbol lines.measurement.horizontal
   static const IconData sf_lines_measurement_horizontal =
       IconData(0x100C2C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol lines.measurement.horizontal.aligned.bottom
+  static const IconData sf_lines_measurement_horizontal_aligned_bottom =
+      IconData(0x1032EE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol lines.measurement.vertical
   static const IconData sf_lines_measurement_vertical =
@@ -16097,6 +17552,10 @@ class SFIcons {
   static const IconData sf_list_bullet =
       IconData(0x1002F2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol list.bullet.badge.ellipsis
+  static const IconData sf_list_bullet_badge_ellipsis =
+      IconData(0x10349C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol list.bullet.below.rectangle
   static const IconData sf_list_bullet_below_rectangle =
       IconData(0x1002F7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -16149,13 +17608,25 @@ class SFIcons {
   static const IconData sf_list_dash =
       IconData(0x1002F1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol list.dash.badge.ellipsis
+  static const IconData sf_list_dash_badge_ellipsis =
+      IconData(0x10349E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol list.dash.header.rectangle
   static const IconData sf_list_dash_header_rectangle =
       IconData(0x100E46, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol list.dash.header.rectangle.fill
+  static const IconData sf_list_dash_header_rectangle_fill =
+      IconData(0x103229, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol list.number
   static const IconData sf_list_number =
       IconData(0x1002F4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol list.number.badge.ellipsis
+  static const IconData sf_list_number_badge_ellipsis =
+      IconData(0x1034A0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol list.star
   static const IconData sf_list_star =
@@ -16301,6 +17772,14 @@ class SFIcons {
   static const IconData sf_lock_applewatch =
       IconData(0x100D45, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol lock.badge.checkmark
+  static const IconData sf_lock_badge_checkmark =
+      IconData(0x103370, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol lock.badge.checkmark.fill
+  static const IconData sf_lock_badge_checkmark_fill =
+      IconData(0x103371, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol lock.badge.clock
   static const IconData sf_lock_badge_clock =
       IconData(0x102189, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -16308,6 +17787,14 @@ class SFIcons {
   /// IconData for SF Symbol lock.badge.clock.fill
   static const IconData sf_lock_badge_clock_fill =
       IconData(0x10218A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol lock.badge.xmark
+  static const IconData sf_lock_badge_xmark =
+      IconData(0x103374, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol lock.badge.xmark.fill
+  static const IconData sf_lock_badge_xmark_fill =
+      IconData(0x103375, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol lock.circle
   static const IconData sf_lock_circle =
@@ -16340,6 +17827,14 @@ class SFIcons {
   /// IconData for SF Symbol lock.fill
   static const IconData sf_lock_fill =
       IconData(0x1003A1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol lock.heart
+  static const IconData sf_lock_heart =
+      IconData(0x1032BF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol lock.heart.fill
+  static const IconData sf_lock_heart_fill =
+      IconData(0x1032C0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol lock.icloud
   static const IconData sf_lock_icloud =
@@ -16409,6 +17904,10 @@ class SFIcons {
   static const IconData sf_lock_rectangle =
       IconData(0x100888, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol lock.rectangle.dashed
+  static const IconData sf_lock_rectangle_dashed =
+      IconData(0x10342D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol lock.rectangle.fill
   static const IconData sf_lock_rectangle_fill =
       IconData(0x100889, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -16457,6 +17956,10 @@ class SFIcons {
   static const IconData sf_lock_square =
       IconData(0x1008B5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol lock.square.dashed
+  static const IconData sf_lock_square_dashed =
+      IconData(0x10351F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol lock.square.fill
   static const IconData sf_lock_square_fill =
       IconData(0x1008B6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -16476,6 +17979,14 @@ class SFIcons {
   /// IconData for SF Symbol lock.trianglebadge.exclamationmark.fill
   static const IconData sf_lock_trianglebadge_exclamationmark_fill =
       IconData(0x10164E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol long.text.page.and.pencil
+  static const IconData sf_long_text_page_and_pencil =
+      IconData(0x102F71, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol long.text.page.and.pencil.fill
+  static const IconData sf_long_text_page_and_pencil_fill =
+      IconData(0x102F74, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol loupe
   static const IconData sf_loupe =
@@ -16577,29 +18088,85 @@ class SFIcons {
   static const IconData sf_macbook_and_iphone =
       IconData(0x100B29, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol macbook.and.ipod
+  static const IconData sf_macbook_and_ipod =
+      IconData(0x103511, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol macbook.and.vision.pro
   static const IconData sf_macbook_and_vision_pro =
       IconData(0x101719, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol macbook.badge.checkmark
+  static const IconData sf_macbook_badge_checkmark =
+      IconData(0x10325A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol macbook.badge.exclamationmark
+  static const IconData sf_macbook_badge_exclamationmark =
+      IconData(0x10351D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol macbook.badge.shield.checkmark
+  static const IconData sf_macbook_badge_shield_checkmark =
+      IconData(0x103288, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol macbook.gen1
   static const IconData sf_macbook_gen1 =
       IconData(0x1017EB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol macbook.gen1.sizes
+  static const IconData sf_macbook_gen1_sizes =
+      IconData(0x10324F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol macbook.gen2
   static const IconData sf_macbook_gen2 =
       IconData(0x101238, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol macbook.gen2.sizes
+  static const IconData sf_macbook_gen2_sizes =
+      IconData(0x103250, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol macbook.sizes
+  static const IconData sf_macbook_sizes =
+      IconData(0x10324E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol macbook.slash
   static const IconData sf_macbook_slash =
       IconData(0x102C8C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol macbook.trianglebadge.exclamationmark
+  static const IconData sf_macbook_trianglebadge_exclamationmark =
+      IconData(0x10325B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol macmini
   static const IconData sf_macmini =
       IconData(0x100AAF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol macmini.badge.checkmark
+  static const IconData sf_macmini_badge_checkmark =
+      IconData(0x103268, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol macmini.badge.checkmark.fill
+  static const IconData sf_macmini_badge_checkmark_fill =
+      IconData(0x103269, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol macmini.fill
   static const IconData sf_macmini_fill =
       IconData(0x100AB0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol macmini.gen2
+  static const IconData sf_macmini_gen2 =
+      IconData(0x102DB7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol macmini.gen2.fill
+  static const IconData sf_macmini_gen2_fill =
+      IconData(0x102DB8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol macmini.gen3
+  static const IconData sf_macmini_gen3 =
+      IconData(0x102DB9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol macmini.gen3.fill
+  static const IconData sf_macmini_gen3_fill =
+      IconData(0x102DBA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol macpro.gen1
   static const IconData sf_macpro_gen1 =
@@ -16621,6 +18188,14 @@ class SFIcons {
   static const IconData sf_macpro_gen3 =
       IconData(0x100AB1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol macpro.gen3.badge.ckeckmark
+  static const IconData sf_macpro_gen3_badge_ckeckmark =
+      IconData(0x103260, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol macpro.gen3.badge.ckeckmark.fill
+  static const IconData sf_macpro_gen3_badge_ckeckmark_fill =
+      IconData(0x103261, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol macpro.gen3.fill
   static const IconData sf_macpro_gen3_fill =
       IconData(0x100F23, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -16633,6 +18208,14 @@ class SFIcons {
   static const IconData sf_macstudio =
       IconData(0x1013CD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol macstudio.badge.checkmark
+  static const IconData sf_macstudio_badge_checkmark =
+      IconData(0x103264, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol macstudio.badge.checkmark.fill
+  static const IconData sf_macstudio_badge_checkmark_fill =
+      IconData(0x103265, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol macstudio.fill
   static const IconData sf_macstudio_fill =
       IconData(0x1013CE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -16641,8 +18224,8 @@ class SFIcons {
   static const IconData sf_macwindow =
       IconData(0x1003DC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol macwindow.and.cursorarrow
-  static const IconData sf_macwindow_and_cursorarrow =
+  /// IconData for SF Symbol macwindow.and.pointer.arrow
+  static const IconData sf_macwindow_and_pointer_arrow =
       IconData(0x101778, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol macwindow.badge.plus
@@ -16652,6 +18235,10 @@ class SFIcons {
   /// IconData for SF Symbol macwindow.on.rectangle
   static const IconData sf_macwindow_on_rectangle =
       IconData(0x10088C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol macwindow.stack
+  static const IconData sf_macwindow_stack =
+      IconData(0x103477, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol magazine
   static const IconData sf_magazine =
@@ -16916,6 +18503,10 @@ class SFIcons {
   static const IconData sf_memories =
       IconData(0x100456, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol memories.badge.checkmark
+  static const IconData sf_memories_badge_checkmark =
+      IconData(0x102DC3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol memories.badge.minus
   static const IconData sf_memories_badge_minus =
       IconData(0x100458, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -16923,6 +18514,14 @@ class SFIcons {
   /// IconData for SF Symbol memories.badge.plus
   static const IconData sf_memories_badge_plus =
       IconData(0x100457, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol memories.badge.xmark
+  static const IconData sf_memories_badge_xmark =
+      IconData(0x102DC1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol memories.slash
+  static const IconData sf_memories_slash =
+      IconData(0x102E82, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol memorychip
   static const IconData sf_memorychip =
@@ -17161,6 +18760,10 @@ class SFIcons {
   static const IconData sf_minus =
       IconData(0x10017D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol minus.arrow.trianglehead.clockwise
+  static const IconData sf_minus_arrow_trianglehead_clockwise =
+      IconData(0x1031FC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol minus.arrow.trianglehead.counterclockwise
   static const IconData sf_minus_arrow_trianglehead_counterclockwise =
       IconData(0x100629, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -17221,6 +18824,34 @@ class SFIcons {
   static const IconData sf_minus_plus_batteryblock_stack =
       IconData(0x101841, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol minus.plus.batteryblock.stack.arrowtriangle.left
+  static const IconData sf_minus_plus_batteryblock_stack_arrowtriangle_left =
+      IconData(0x102E78, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol minus.plus.batteryblock.stack.arrowtriangle.left.fill
+  static const IconData
+      sf_minus_plus_batteryblock_stack_arrowtriangle_left_fill =
+      IconData(0x102E7A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol minus.plus.batteryblock.stack.arrowtriangle.right
+  static const IconData sf_minus_plus_batteryblock_stack_arrowtriangle_right =
+      IconData(0x102E74, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol minus.plus.batteryblock.stack.arrowtriangle.right.and.arrowtriangle.left
+  static const IconData
+      sf_minus_plus_batteryblock_stack_arrowtriangle_right_and_arrowtriangle_left =
+      IconData(0x102F15, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol minus.plus.batteryblock.stack.arrowtriangle.right.and.arrowtriangle.left.fill
+  static const IconData
+      sf_minus_plus_batteryblock_stack_arrowtriangle_right_and_arrowtriangle_left_fill =
+      IconData(0x102F16, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol minus.plus.batteryblock.stack.arrowtriangle.right.fill
+  static const IconData
+      sf_minus_plus_batteryblock_stack_arrowtriangle_right_fill =
+      IconData(0x102E76, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol minus.plus.batteryblock.stack.exclamationmark
   static const IconData sf_minus_plus_batteryblock_stack_exclamationmark =
       IconData(0x101843, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -17232,6 +18863,11 @@ class SFIcons {
   /// IconData for SF Symbol minus.plus.batteryblock.stack.fill
   static const IconData sf_minus_plus_batteryblock_stack_fill =
       IconData(0x101842, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol minus.plus.lines.measurement.horizontal.aligned.bottom
+  static const IconData
+      sf_minus_plus_lines_measurement_horizontal_aligned_bottom =
+      IconData(0x1032EF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol minus.rectangle
   static const IconData sf_minus_rectangle =
@@ -17577,6 +19213,10 @@ class SFIcons {
   static const IconData sf_music_note =
       IconData(0x10046A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol music.note.arrow.trianglehead.clockwise
+  static const IconData sf_music_note_arrow_trianglehead_clockwise =
+      IconData(0x1030C2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol music.note.house
   static const IconData sf_music_note_house =
       IconData(0x1004BC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -17589,6 +19229,18 @@ class SFIcons {
   static const IconData sf_music_note_list =
       IconData(0x10046C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol music.note.slash
+  static const IconData sf_music_note_slash =
+      IconData(0x103453, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol music.note.square.stack
+  static const IconData sf_music_note_square_stack =
+      IconData(0x103439, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol music.note.square.stack.fill
+  static const IconData sf_music_note_square_stack_fill =
+      IconData(0x10343A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol music.note.tv
   static const IconData sf_music_note_tv =
       IconData(0x1003B5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -17596,6 +19248,14 @@ class SFIcons {
   /// IconData for SF Symbol music.note.tv.fill
   static const IconData sf_music_note_tv_fill =
       IconData(0x1004B7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol music.pages
+  static const IconData sf_music_pages =
+      IconData(0x10306E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol music.pages.fill
+  static const IconData sf_music_pages_fill =
+      IconData(0x10306F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol music.quarternote.3
   static const IconData sf_music_quarternote_3 =
@@ -17772,17 +19432,9 @@ class SFIcons {
   static const IconData sf_nosign_app_fill =
       IconData(0x10174B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol note
-  static const IconData sf_note =
-      IconData(0x1009F5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol note.text
-  static const IconData sf_note_text =
-      IconData(0x1004D5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
-  /// IconData for SF Symbol note.text.badge.plus
-  static const IconData sf_note_text_badge_plus =
-      IconData(0x1008D9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+  /// IconData for SF Symbol nosign.badge.clock
+  static const IconData sf_nosign_badge_clock =
+      IconData(0x102F2B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol notequal
   static const IconData sf_notequal =
@@ -18040,6 +19692,10 @@ class SFIcons {
   static const IconData sf_p4_button_horizontal_fill =
       IconData(0x101E33, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol pad.header
+  static const IconData sf_pad_header =
+      IconData(0x1009F5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol paddleshifter.left
   static const IconData sf_paddleshifter_left =
       IconData(0x101E34, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -18055,6 +19711,10 @@ class SFIcons {
   /// IconData for SF Symbol paddleshifter.right.fill
   static const IconData sf_paddleshifter_right_fill =
       IconData(0x101E37, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol paint.bucket.classic
+  static const IconData sf_paint_bucket_classic =
+      IconData(0x100823, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol paintbrush
   static const IconData sf_paintbrush =
@@ -18276,9 +19936,18 @@ class SFIcons {
   static const IconData sf_pedestrian_gate_closed =
       IconData(0x1014E1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol pedestrian.gate.closed.trianglebadge.exclamationmark
+  static const IconData
+      sf_pedestrian_gate_closed_trianglebadge_exclamationmark =
+      IconData(0x103551, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol pedestrian.gate.open
   static const IconData sf_pedestrian_gate_open =
       IconData(0x1014E2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pedestrian.gate.open.trianglebadge.exclamationmark
+  static const IconData sf_pedestrian_gate_open_trianglebadge_exclamationmark =
+      IconData(0x103550, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol pencil
   static const IconData sf_pencil =
@@ -18396,6 +20065,14 @@ class SFIcons {
   static const IconData sf_person_2_arrow_trianglehead_counterclockwise =
       IconData(0x101659, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol person.2.badge
+  static const IconData sf_person_2_badge =
+      IconData(0x1028D1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol person.2.badge.fill
+  static const IconData sf_person_2_badge_fill =
+      IconData(0x1028D2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol person.2.badge.gearshape
   static const IconData sf_person_2_badge_gearshape =
       IconData(0x10165A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -18447,6 +20124,14 @@ class SFIcons {
   /// IconData for SF Symbol person.2.fill
   static const IconData sf_person_2_fill =
       IconData(0x10026C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol person.2.shield
+  static const IconData sf_person_2_shield =
+      IconData(0x103488, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol person.2.shield.fill
+  static const IconData sf_person_2_shield_fill =
+      IconData(0x103489, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol person.2.slash
   static const IconData sf_person_2_slash =
@@ -18556,6 +20241,10 @@ class SFIcons {
   static const IconData sf_person_bust_fill =
       IconData(0x1015E2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol person.checkmark.and.xmark
+  static const IconData sf_person_checkmark_and_xmark =
+      IconData(0x102EEB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol person.circle
   static const IconData sf_person_circle =
       IconData(0x1004E3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -18595,6 +20284,14 @@ class SFIcons {
   /// IconData for SF Symbol person.crop.circle.badge.clock.fill
   static const IconData sf_person_crop_circle_badge_clock_fill =
       IconData(0x101155, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol person.crop.circle.badge.ellipsis
+  static const IconData sf_person_crop_circle_badge_ellipsis =
+      IconData(0x103087, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol person.crop.circle.badge.ellipsis.fill
+  static const IconData sf_person_crop_circle_badge_ellipsis_fill =
+      IconData(0x103088, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol person.crop.circle.badge.exclamationmark
   static const IconData sf_person_crop_circle_badge_exclamationmark =
@@ -18752,6 +20449,10 @@ class SFIcons {
   static const IconData sf_person_fill_checkmark =
       IconData(0x100BE7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol person.fill.checkmark.and.xmark
+  static const IconData sf_person_fill_checkmark_and_xmark =
+      IconData(0x102EEC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol person.fill.questionmark
   static const IconData sf_person_fill_questionmark =
       IconData(0x100BE9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -18800,6 +20501,22 @@ class SFIcons {
   static const IconData sf_person_slash_fill =
       IconData(0x1018D5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol person.spatialaudio.3d.fill
+  static const IconData sf_person_spatialaudio_3d_fill =
+      IconData(0x10322E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol person.spatialaudio.fill
+  static const IconData sf_person_spatialaudio_fill =
+      IconData(0x101028, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol person.spatialaudio.stereo.3d.fill
+  static const IconData sf_person_spatialaudio_stereo_3d_fill =
+      IconData(0x10322D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol person.spatialaudio.stereo.fill
+  static const IconData sf_person_spatialaudio_stereo_fill =
+      IconData(0x101027, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol person.text.rectangle
   static const IconData sf_person_text_rectangle =
       IconData(0x100FD2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -18807,6 +20524,15 @@ class SFIcons {
   /// IconData for SF Symbol person.text.rectangle.fill
   static const IconData sf_person_text_rectangle_fill =
       IconData(0x100FD3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol person.text.rectangle.trianglebadge.exclamationmark
+  static const IconData sf_person_text_rectangle_trianglebadge_exclamationmark =
+      IconData(0x103480, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol person.text.rectangle.trianglebadge.exclamationmark.fill
+  static const IconData
+      sf_person_text_rectangle_trianglebadge_exclamationmark_fill =
+      IconData(0x103481, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol person.wave.2
   static const IconData sf_person_wave_2 =
@@ -18985,6 +20711,22 @@ class SFIcons {
   static const IconData sf_pesosign_square_fill =
       IconData(0x1005F2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol pet.carrier
+  static const IconData sf_pet_carrier =
+      IconData(0x103311, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pet.carrier.circle
+  static const IconData sf_pet_carrier_circle =
+      IconData(0x1033A4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pet.carrier.circle.fill
+  static const IconData sf_pet_carrier_circle_fill =
+      IconData(0x1033A5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pet.carrier.fill
+  static const IconData sf_pet_carrier_fill =
+      IconData(0x103312, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol phone
   static const IconData sf_phone =
       IconData(0x10033E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -19101,6 +20843,22 @@ class SFIcons {
   static const IconData sf_phone_fill_badge_plus =
       IconData(0x10058F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol phone.pause
+  static const IconData sf_phone_pause =
+      IconData(0x103093, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol phone.pause.circle
+  static const IconData sf_phone_pause_circle =
+      IconData(0x103095, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol phone.pause.circle.fill
+  static const IconData sf_phone_pause_circle_fill =
+      IconData(0x103096, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol phone.pause.fill
+  static const IconData sf_phone_pause_fill =
+      IconData(0x103094, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol photo
   static const IconData sf_photo =
       IconData(0x1003C5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -19141,6 +20899,14 @@ class SFIcons {
   static const IconData sf_photo_badge_exclamationmark_fill =
       IconData(0x102AA6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol photo.badge.magnifyingglass
+  static const IconData sf_photo_badge_magnifyingglass =
+      IconData(0x102DD0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol photo.badge.magnifyingglass.fill
+  static const IconData sf_photo_badge_magnifyingglass_fill =
+      IconData(0x102DD1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol photo.badge.plus
   static const IconData sf_photo_badge_plus =
       IconData(0x1010CF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -19148,6 +20914,14 @@ class SFIcons {
   /// IconData for SF Symbol photo.badge.plus.fill
   static const IconData sf_photo_badge_plus_fill =
       IconData(0x1010D0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol photo.badge.shield.exclamationmark
+  static const IconData sf_photo_badge_shield_exclamationmark =
+      IconData(0x102F2D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol photo.badge.shield.exclamationmark.fill
+  static const IconData sf_photo_badge_shield_exclamationmark_fill =
+      IconData(0x102F37, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol photo.circle
   static const IconData sf_photo_circle =
@@ -19185,9 +20959,37 @@ class SFIcons {
   static const IconData sf_photo_stack_fill =
       IconData(0x1003F0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol photo.trianglebadge.exclamationmark
+  static const IconData sf_photo_trianglebadge_exclamationmark =
+      IconData(0x102F2F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol photo.trianglebadge.exclamationmark.fill
+  static const IconData sf_photo_trianglebadge_exclamationmark_fill =
+      IconData(0x102F38, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol photo.tv
   static const IconData sf_photo_tv =
       IconData(0x100D6A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pi
+  static const IconData sf_pi =
+      IconData(0x102E6F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pi.circle
+  static const IconData sf_pi_circle =
+      IconData(0x102E70, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pi.circle.fill
+  static const IconData sf_pi_circle_fill =
+      IconData(0x102E71, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pi.square
+  static const IconData sf_pi_square =
+      IconData(0x102E72, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pi.square.fill
+  static const IconData sf_pi_square_fill =
+      IconData(0x102E73, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol pianokeys
   static const IconData sf_pianokeys =
@@ -19361,6 +21163,14 @@ class SFIcons {
   static const IconData sf_play_desktopcomputer =
       IconData(0x1013F3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol play.diamond
+  static const IconData sf_play_diamond =
+      IconData(0x103124, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol play.diamond.fill
+  static const IconData sf_play_diamond_fill =
+      IconData(0x103125, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol play.display
   static const IconData sf_play_display =
       IconData(0x1013F4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -19473,6 +21283,10 @@ class SFIcons {
   static const IconData sf_plus_arrow_trianglehead_clockwise =
       IconData(0x100628, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol plus.arrow.trianglehead.counterclockwise
+  static const IconData sf_plus_arrow_trianglehead_counterclockwise =
+      IconData(0x1031FF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol plus.bubble
   static const IconData sf_plus_bubble =
       IconData(0x100336, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -19480,6 +21294,14 @@ class SFIcons {
   /// IconData for SF Symbol plus.bubble.fill
   static const IconData sf_plus_bubble_fill =
       IconData(0x100337, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol plus.capsule
+  static const IconData sf_plus_capsule =
+      IconData(0x103074, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol plus.capsule.fill
+  static const IconData sf_plus_capsule_fill =
+      IconData(0x103075, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol plus.circle
   static const IconData sf_plus_circle =
@@ -19516,6 +21338,14 @@ class SFIcons {
   /// IconData for SF Symbol plus.message.fill
   static const IconData sf_plus_message_fill =
       IconData(0x10085A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol plus.minus.capsule
+  static const IconData sf_plus_minus_capsule =
+      IconData(0x102EE5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol plus.minus.capsule.fill
+  static const IconData sf_plus_minus_capsule_fill =
+      IconData(0x102EE6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol plus.rectangle
   static const IconData sf_plus_rectangle =
@@ -19679,6 +21509,90 @@ class SFIcons {
   static const IconData
       sf_point_topright_filled_arrow_triangle_backward_to_point_bottomleft_scurvepath =
       IconData(0x10291E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow
+  static const IconData sf_pointer_arrow =
+      IconData(0x100ACC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.and.square.on.square.dashed
+  static const IconData sf_pointer_arrow_and_square_on_square_dashed =
+      IconData(0x100B90, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.click
+  static const IconData sf_pointer_arrow_click =
+      IconData(0x100B46, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.click.2
+  static const IconData sf_pointer_arrow_click_2 =
+      IconData(0x100B47, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.click.badge.clock
+  static const IconData sf_pointer_arrow_click_badge_clock =
+      IconData(0x100BB4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.ipad
+  static const IconData sf_pointer_arrow_ipad =
+      IconData(0x10355D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.ipad.and.square.on.square.dashed
+  static const IconData sf_pointer_arrow_ipad_and_square_on_square_dashed =
+      IconData(0x103565, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.ipad.rays
+  static const IconData sf_pointer_arrow_ipad_rays =
+      IconData(0x103564, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.ipad.slash
+  static const IconData sf_pointer_arrow_ipad_slash =
+      IconData(0x103560, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.ipad.slash.square
+  static const IconData sf_pointer_arrow_ipad_slash_square =
+      IconData(0x103562, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.ipad.slash.square.fill
+  static const IconData sf_pointer_arrow_ipad_slash_square_fill =
+      IconData(0x103563, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.ipad.square
+  static const IconData sf_pointer_arrow_ipad_square =
+      IconData(0x10355E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.ipad.square.fill
+  static const IconData sf_pointer_arrow_ipad_square_fill =
+      IconData(0x10355F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.motionlines
+  static const IconData sf_pointer_arrow_motionlines =
+      IconData(0x1008E0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.motionlines.click
+  static const IconData sf_pointer_arrow_motionlines_click =
+      IconData(0x1008E1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.rays
+  static const IconData sf_pointer_arrow_rays =
+      IconData(0x1001F0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.slash
+  static const IconData sf_pointer_arrow_slash =
+      IconData(0x101DC1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.slash.square
+  static const IconData sf_pointer_arrow_slash_square =
+      IconData(0x101DC2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.slash.square.fill
+  static const IconData sf_pointer_arrow_slash_square_fill =
+      IconData(0x101DC3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.square
+  static const IconData sf_pointer_arrow_square =
+      IconData(0x100B45, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol pointer.arrow.square.fill
+  static const IconData sf_pointer_arrow_square_fill =
+      IconData(0x101680, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol polishzlotysign
   static const IconData sf_polishzlotysign =
@@ -20214,6 +22128,14 @@ class SFIcons {
   static const IconData sf_questionmark_key_filled =
       IconData(0x101833, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol questionmark.message
+  static const IconData sf_questionmark_message =
+      IconData(0x102DEB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol questionmark.message.fill
+  static const IconData sf_questionmark_message_fill =
+      IconData(0x102DEC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol questionmark.square
   static const IconData sf_questionmark_square =
       IconData(0x1000EC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -20398,6 +22320,10 @@ class SFIcons {
   static const IconData sf_r4_button_horizontal_fill =
       IconData(0x101EA5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol radicand.squareroot
+  static const IconData sf_radicand_squareroot =
+      IconData(0x1004EA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol radio
   static const IconData sf_radio =
       IconData(0x100A94, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -20429,6 +22355,14 @@ class SFIcons {
   /// IconData for SF Symbol rb.circle.fill
   static const IconData sf_rb_circle_fill =
       IconData(0x101E8C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol receipt
+  static const IconData sf_receipt =
+      IconData(0x102DFC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol receipt.fill
+  static const IconData sf_receipt_fill =
+      IconData(0x102DFD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol record.circle
   static const IconData sf_record_circle =
@@ -20469,6 +22403,10 @@ class SFIcons {
   /// IconData for SF Symbol rectangle.3.group.bubble.fill
   static const IconData sf_rectangle_3_group_bubble_fill =
       IconData(0x100B05, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol rectangle.3.group.dashed
+  static const IconData sf_rectangle_3_group_dashed =
+      IconData(0x10344A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol rectangle.3.group.fill
   static const IconData sf_rectangle_3_group_fill =
@@ -20530,6 +22468,14 @@ class SFIcons {
   /// IconData for SF Symbol rectangle.badge.plus
   static const IconData sf_rectangle_badge_plus =
       IconData(0x1003D1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol rectangle.badge.sparkles
+  static const IconData sf_rectangle_badge_sparkles =
+      IconData(0x1035A6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol rectangle.badge.sparkles.fill
+  static const IconData sf_rectangle_badge_sparkles_fill =
+      IconData(0x1035A7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol rectangle.badge.xmark
   static const IconData sf_rectangle_badge_xmark =
@@ -20611,6 +22557,14 @@ class SFIcons {
   static const IconData sf_rectangle_grid_1x2_fill =
       IconData(0x100689, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol rectangle.grid.1x3
+  static const IconData sf_rectangle_grid_1x3 =
+      IconData(0x10347C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol rectangle.grid.1x3.fill
+  static const IconData sf_rectangle_grid_1x3_fill =
+      IconData(0x10347D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol rectangle.grid.2x2
   static const IconData sf_rectangle_grid_2x2 =
       IconData(0x1006E6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -20618,6 +22572,14 @@ class SFIcons {
   /// IconData for SF Symbol rectangle.grid.2x2.fill
   static const IconData sf_rectangle_grid_2x2_fill =
       IconData(0x1006E7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol rectangle.grid.3x1
+  static const IconData sf_rectangle_grid_3x1 =
+      IconData(0x102DAF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol rectangle.grid.3x1.fill
+  static const IconData sf_rectangle_grid_3x1_fill =
+      IconData(0x102DB0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol rectangle.grid.3x2
   static const IconData sf_rectangle_grid_3x2 =
@@ -20638,6 +22600,10 @@ class SFIcons {
   /// IconData for SF Symbol rectangle.landscape.rotate
   static const IconData sf_rectangle_landscape_rotate =
       IconData(0x101EEF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol rectangle.landscape.rotate.slash
+  static const IconData sf_rectangle_landscape_rotate_slash =
+      IconData(0x103532, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol rectangle.leadinghalf.filled
   static const IconData sf_rectangle_leadinghalf_filled =
@@ -20789,6 +22755,10 @@ class SFIcons {
   /// IconData for SF Symbol rectangle.portrait.rotate
   static const IconData sf_rectangle_portrait_rotate =
       IconData(0x101EEE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol rectangle.portrait.rotate.slash
+  static const IconData sf_rectangle_portrait_rotate_slash =
+      IconData(0x103535, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol rectangle.portrait.slash
   static const IconData sf_rectangle_portrait_slash =
@@ -20950,6 +22920,14 @@ class SFIcons {
   static const IconData sf_rectangle_stack_fill_badge_plus =
       IconData(0x1003F2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol rectangle.stack.slash
+  static const IconData sf_rectangle_stack_slash =
+      IconData(0x103211, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol rectangle.stack.slash.fill
+  static const IconData sf_rectangle_stack_slash_fill =
+      IconData(0x103212, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol rectangle.tophalf.filled
   static const IconData sf_rectangle_tophalf_filled =
       IconData(0x100FEF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -20981,6 +22959,10 @@ class SFIcons {
   /// IconData for SF Symbol repeat.1.circle.fill
   static const IconData sf_repeat_1_circle_fill =
       IconData(0x100D4E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol repeat.badge.xmark
+  static const IconData sf_repeat_badge_xmark =
+      IconData(0x102EDB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol repeat.circle
   static const IconData sf_repeat_circle =
@@ -21070,6 +23052,14 @@ class SFIcons {
   static const IconData sf_righttriangle_split_diagonal_fill =
       IconData(0x100379, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol ring
+  static const IconData sf_ring =
+      IconData(0x10328D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol ring.dashed
+  static const IconData sf_ring_dashed =
+      IconData(0x10328C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol rm.button.horizontal
   static const IconData sf_rm_button_horizontal =
       IconData(0x101EA6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -21081,6 +23071,10 @@ class SFIcons {
   /// IconData for SF Symbol road.lane.arrowtriangle.2.inward
   static const IconData sf_road_lane_arrowtriangle_2_inward =
       IconData(0x101576, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol road.lane.arrowtriangle.2.outward
+  static const IconData sf_road_lane_arrowtriangle_2_outward =
+      IconData(0x102F00, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol road.lanes
   static const IconData sf_road_lanes =
@@ -21097,6 +23091,22 @@ class SFIcons {
   /// IconData for SF Symbol robotic.vacuum
   static const IconData sf_robotic_vacuum =
       IconData(0x102A2D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol robotic.vacuum.and.arrowtriangle.up
+  static const IconData sf_robotic_vacuum_and_arrowtriangle_up =
+      IconData(0x102F33, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol robotic.vacuum.and.arrowtriangle.up.fill
+  static const IconData sf_robotic_vacuum_and_arrowtriangle_up_fill =
+      IconData(0x102F34, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol robotic.vacuum.and.ellipsis
+  static const IconData sf_robotic_vacuum_and_ellipsis =
+      IconData(0x102F31, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol robotic.vacuum.and.ellipsis.fill
+  static const IconData sf_robotic_vacuum_and_ellipsis_fill =
+      IconData(0x102F32, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol robotic.vacuum.fill
   static const IconData sf_robotic_vacuum_fill =
@@ -21436,6 +23446,14 @@ class SFIcons {
   static const IconData sf_sensor_fill =
       IconData(0x10150A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol sensor.radiowaves.left.and.right
+  static const IconData sf_sensor_radiowaves_left_and_right =
+      IconData(0x1031B2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol sensor.radiowaves.left.and.right.fill
+  static const IconData sf_sensor_radiowaves_left_and_right_fill =
+      IconData(0x1031B3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol sensor.tag.radiowaves.forward
   static const IconData sf_sensor_tag_radiowaves_forward =
       IconData(0x10105D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -21447,6 +23465,14 @@ class SFIcons {
   /// IconData for SF Symbol server.rack
   static const IconData sf_server_rack =
       IconData(0x100AAC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol service.dog
+  static const IconData sf_service_dog =
+      IconData(0x1033A2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol service.dog.fill
+  static const IconData sf_service_dog_fill =
+      IconData(0x1033A3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol shadow
   static const IconData sf_shadow =
@@ -21618,6 +23644,30 @@ class SFIcons {
   /// IconData for SF Symbol shoe.2.fill
   static const IconData sf_shoe_2_fill =
       IconData(0x1018F2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol shoe.arrow.trianglehead.up.and.down
+  static const IconData sf_shoe_arrow_trianglehead_up_and_down =
+      IconData(0x103549, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol shoe.arrow.trianglehead.up.and.down.fill
+  static const IconData sf_shoe_arrow_trianglehead_up_and_down_fill =
+      IconData(0x103554, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol shoe.arrow.trianglehead.up.right
+  static const IconData sf_shoe_arrow_trianglehead_up_right =
+      IconData(0x1018EB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol shoe.arrow.trianglehead.up.right.circle
+  static const IconData sf_shoe_arrow_trianglehead_up_right_circle =
+      IconData(0x1018EC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol shoe.arrow.trianglehead.up.right.circle.fill
+  static const IconData sf_shoe_arrow_trianglehead_up_right_circle_fill =
+      IconData(0x1018ED, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol shoe.arrow.trianglehead.up.right.fill
+  static const IconData sf_shoe_arrow_trianglehead_up_right_fill =
+      IconData(0x1018EE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol shoe.circle
   static const IconData sf_shoe_circle =
@@ -21845,6 +23895,10 @@ class SFIcons {
   static const IconData sf_sink_fill =
       IconData(0x10142B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol siri
+  static const IconData sf_siri =
+      IconData(0x100ADB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol skateboard
   static const IconData sf_skateboard =
       IconData(0x1020A9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -21911,6 +23965,24 @@ class SFIcons {
   static const IconData sf_slider_horizontal_3 =
       IconData(0x100306, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol slider.horizontal.below.circle.lefthalf.filled
+  static const IconData sf_slider_horizontal_below_circle_lefthalf_filled =
+      IconData(0x103063, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol slider.horizontal.below.circle.lefthalf.filled.inverse
+  static const IconData
+      sf_slider_horizontal_below_circle_lefthalf_filled_inverse =
+      IconData(0x103064, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol slider.horizontal.below.circle.righthalf.filled
+  static const IconData sf_slider_horizontal_below_circle_righthalf_filled =
+      IconData(0x103065, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol slider.horizontal.below.circle.righthalf.filled.inverse
+  static const IconData
+      sf_slider_horizontal_below_circle_righthalf_filled_inverse =
+      IconData(0x103066, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol slider.horizontal.below.rectangle
   static const IconData sf_slider_horizontal_below_rectangle =
       IconData(0x100417, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -21926,6 +23998,10 @@ class SFIcons {
   /// IconData for SF Symbol slider.horizontal.below.sun.max
   static const IconData sf_slider_horizontal_below_sun_max =
       IconData(0x101FCC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol slider.horizontal.below.sun.min
+  static const IconData sf_slider_horizontal_below_sun_min =
+      IconData(0x10361C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol slider.vertical.3
   static const IconData sf_slider_vertical_3 =
@@ -22059,9 +24135,21 @@ class SFIcons {
   static const IconData sf_sparkle_magnifyingglass =
       IconData(0x1011E5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol sparkle.text.clipboard
+  static const IconData sf_sparkle_text_clipboard =
+      IconData(0x1034FF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol sparkle.text.clipboard.fill
+  static const IconData sf_sparkle_text_clipboard_fill =
+      IconData(0x103500, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol sparkles
   static const IconData sf_sparkles =
       IconData(0x1001BF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol sparkles.2
+  static const IconData sf_sparkles_2 =
+      IconData(0x103230, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol sparkles.rectangle.stack
   static const IconData sf_sparkles_rectangle_stack =
@@ -22082,6 +24170,30 @@ class SFIcons {
   /// IconData for SF Symbol sparkles.tv.fill
   static const IconData sf_sparkles_tv_fill =
       IconData(0x10114C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol spatial.capture
+  static const IconData sf_spatial_capture =
+      IconData(0x102291, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol spatial.capture.fill
+  static const IconData sf_spatial_capture_fill =
+      IconData(0x102292, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol spatial.capture.on.hexagon
+  static const IconData sf_spatial_capture_on_hexagon =
+      IconData(0x102293, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol spatial.capture.on.hexagon.fill
+  static const IconData sf_spatial_capture_on_hexagon_fill =
+      IconData(0x102294, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol spatial.capture.slash
+  static const IconData sf_spatial_capture_slash =
+      IconData(0x102A99, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol spatial.capture.slash.fill
+  static const IconData sf_spatial_capture_slash_fill =
+      IconData(0x102A9A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol speaker
   static const IconData sf_speaker =
@@ -22147,6 +24259,14 @@ class SFIcons {
   static const IconData sf_speaker_square_fill =
       IconData(0x100F46, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol speaker.trianglebadge.exclamationmark
+  static const IconData sf_speaker_trianglebadge_exclamationmark =
+      IconData(0x1032BA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol speaker.trianglebadge.exclamationmark.fill
+  static const IconData sf_speaker_trianglebadge_exclamationmark_fill =
+      IconData(0x1032BB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol speaker.wave.1
   static const IconData sf_speaker_wave_1 =
       IconData(0x1002A4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -22206,6 +24326,10 @@ class SFIcons {
   /// IconData for SF Symbol spigot.fill
   static const IconData sf_spigot_fill =
       IconData(0x1014BF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol spoon.serving
+  static const IconData sf_spoon_serving =
+      IconData(0x102EDD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol sportscourt
   static const IconData sf_sportscourt =
@@ -22307,6 +24431,14 @@ class SFIcons {
   static const IconData sf_square_and_arrow_down =
       IconData(0x100204, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol square.and.arrow.down.badge.checkmark
+  static const IconData sf_square_and_arrow_down_badge_checkmark =
+      IconData(0x102DE1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol square.and.arrow.down.badge.checkmark.fill
+  static const IconData sf_square_and_arrow_down_badge_checkmark_fill =
+      IconData(0x102DE2, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol square.and.arrow.down.badge.clock
   static const IconData sf_square_and_arrow_down_badge_clock =
       IconData(0x102C35, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -22314,6 +24446,14 @@ class SFIcons {
   /// IconData for SF Symbol square.and.arrow.down.badge.clock.fill
   static const IconData sf_square_and_arrow_down_badge_clock_fill =
       IconData(0x102C36, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol square.and.arrow.down.badge.xmark
+  static const IconData sf_square_and_arrow_down_badge_xmark =
+      IconData(0x102DE5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol square.and.arrow.down.badge.xmark.fill
+  static const IconData sf_square_and_arrow_down_badge_xmark_fill =
+      IconData(0x102DE6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol square.and.arrow.down.fill
   static const IconData sf_square_and_arrow_down_fill =
@@ -22330,6 +24470,14 @@ class SFIcons {
   /// IconData for SF Symbol square.and.arrow.up
   static const IconData sf_square_and_arrow_up =
       IconData(0x100202, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol square.and.arrow.up.badge.checkmark
+  static const IconData sf_square_and_arrow_up_badge_checkmark =
+      IconData(0x102F3D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol square.and.arrow.up.badge.checkmark.fill
+  static const IconData sf_square_and_arrow_up_badge_checkmark_fill =
+      IconData(0x102F3E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol square.and.arrow.up.badge.clock
   static const IconData sf_square_and_arrow_up_badge_clock =
@@ -22750,10 +24898,6 @@ class SFIcons {
       sf_squareshape_controlhandles_on_squareshape_controlhandles =
       IconData(0x100A77, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol squareshape.dotted.split.2x2
-  static const IconData sf_squareshape_dotted_split_2x2 =
-      IconData(0x1014D3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
   /// IconData for SF Symbol squareshape.dotted.squareshape
   static const IconData sf_squareshape_dotted_squareshape =
       IconData(0x100A62, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -22766,9 +24910,17 @@ class SFIcons {
   static const IconData sf_squareshape_split_2x2 =
       IconData(0x100B9E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol squareshape.split.2x2.dotted
-  static const IconData sf_squareshape_split_2x2_dotted =
+  /// IconData for SF Symbol squareshape.split.2x2.dotted.inside
+  static const IconData sf_squareshape_split_2x2_dotted_inside =
       IconData(0x100B8C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol squareshape.split.2x2.dotted.inside.and.outside
+  static const IconData sf_squareshape_split_2x2_dotted_inside_and_outside =
+      IconData(0x1014D3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol squareshape.split.2x2.dotted.outside
+  static const IconData sf_squareshape_split_2x2_dotted_outside =
+      IconData(0x102F3C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol squareshape.split.3x3
   static const IconData sf_squareshape_split_3x3 =
@@ -22806,9 +24958,25 @@ class SFIcons {
   static const IconData sf_star_fill =
       IconData(0x1002C3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol star.hexagon
+  static const IconData sf_star_hexagon =
+      IconData(0x102EB7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol star.hexagon.fill
+  static const IconData sf_star_hexagon_fill =
+      IconData(0x102EB8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol star.leadinghalf.filled
   static const IconData sf_star_leadinghalf_filled =
       IconData(0x1002C4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol star.rectangle
+  static const IconData sf_star_rectangle =
+      IconData(0x103591, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol star.rectangle.fill
+  static const IconData sf_star_rectangle_fill =
+      IconData(0x103592, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol star.slash
   static const IconData sf_star_slash =
@@ -22878,10 +25046,6 @@ class SFIcons {
   static const IconData sf_steeringwheel_and_liquid_wave =
       IconData(0x10189F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol steeringwheel.and.lock
-  static const IconData sf_steeringwheel_and_lock =
-      IconData(0x1017C0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
   /// IconData for SF Symbol steeringwheel.arrow.trianglehead.counterclockwise.and.clockwise
   static const IconData
       sf_steeringwheel_arrow_trianglehead_counterclockwise_and_clockwise =
@@ -22898,6 +25062,10 @@ class SFIcons {
   /// IconData for SF Symbol steeringwheel.badge.exclamationmark
   static const IconData sf_steeringwheel_badge_exclamationmark =
       IconData(0x10125B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol steeringwheel.badge.lock
+  static const IconData sf_steeringwheel_badge_lock =
+      IconData(0x1017C0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol steeringwheel.circle
   static const IconData sf_steeringwheel_circle =
@@ -23037,6 +25205,18 @@ class SFIcons {
   static const IconData sf_strikethrough =
       IconData(0x100156, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol strikethrough.double
+  static const IconData sf_strikethrough_double =
+      IconData(0x10340B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol stroke.line.diagonal
+  static const IconData sf_stroke_line_diagonal =
+      IconData(0x10346A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol stroke.line.diagonal.slash
+  static const IconData sf_stroke_line_diagonal_slash =
+      IconData(0x10346B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol stroller
   static const IconData sf_stroller =
       IconData(0x101796, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -23093,6 +25273,14 @@ class SFIcons {
   static const IconData sf_suitcase_cart_fill =
       IconData(0x100D8C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol suitcase.circle
+  static const IconData sf_suitcase_circle =
+      IconData(0x103045, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol suitcase.circle.fill
+  static const IconData sf_suitcase_circle_fill =
+      IconData(0x103046, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol suitcase.fill
   static const IconData sf_suitcase_fill =
       IconData(0x100D8A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -23100,6 +25288,46 @@ class SFIcons {
   /// IconData for SF Symbol suitcase.rolling
   static const IconData sf_suitcase_rolling =
       IconData(0x1017AF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol suitcase.rolling.and.film
+  static const IconData sf_suitcase_rolling_and_film =
+      IconData(0x103308, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol suitcase.rolling.and.film.circle
+  static const IconData sf_suitcase_rolling_and_film_circle =
+      IconData(0x10330C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol suitcase.rolling.and.film.circle.fill
+  static const IconData sf_suitcase_rolling_and_film_circle_fill =
+      IconData(0x10330D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol suitcase.rolling.and.film.fill
+  static const IconData sf_suitcase_rolling_and_film_fill =
+      IconData(0x103309, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol suitcase.rolling.and.suitcase
+  static const IconData sf_suitcase_rolling_and_suitcase =
+      IconData(0x1032D5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol suitcase.rolling.and.suitcase.circle
+  static const IconData sf_suitcase_rolling_and_suitcase_circle =
+      IconData(0x1032D7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol suitcase.rolling.and.suitcase.circle.fill
+  static const IconData sf_suitcase_rolling_and_suitcase_circle_fill =
+      IconData(0x1032D8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol suitcase.rolling.and.suitcase.fill
+  static const IconData sf_suitcase_rolling_and_suitcase_fill =
+      IconData(0x1032D6, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol suitcase.rolling.circle
+  static const IconData sf_suitcase_rolling_circle =
+      IconData(0x1032D3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol suitcase.rolling.circle.fill
+  static const IconData sf_suitcase_rolling_circle_fill =
+      IconData(0x1032D4, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol suitcase.rolling.fill
   static const IconData sf_suitcase_rolling_fill =
@@ -23309,6 +25537,14 @@ class SFIcons {
   static const IconData sf_suv_side_and_exclamationmark_fill =
       IconData(0x101816, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol suv.side.arrow.left.and.right
+  static const IconData sf_suv_side_arrow_left_and_right =
+      IconData(0x102E7E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol suv.side.arrow.left.and.right.fill
+  static const IconData sf_suv_side_arrow_left_and_right_fill =
+      IconData(0x102E7F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol suv.side.arrowtriangle.down
   static const IconData sf_suv_side_arrowtriangle_down =
       IconData(0x10181D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -23364,6 +25600,16 @@ class SFIcons {
   /// IconData for SF Symbol suv.side.hill.down
   static const IconData sf_suv_side_hill_down =
       IconData(0x101950, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol suv.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle
+  static const IconData
+      sf_suv_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle =
+      IconData(0x102F1F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol suv.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill
+  static const IconData
+      sf_suv_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle_fill =
+      IconData(0x102F20, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol suv.side.hill.down.fill
   static const IconData sf_suv_side_hill_down_fill =
@@ -23808,6 +26054,14 @@ class SFIcons {
   static const IconData sf_text_badge_xmark =
       IconData(0x1002FB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol text.below.folder
+  static const IconData sf_text_below_folder =
+      IconData(0x10342F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol text.below.folder.fill
+  static const IconData sf_text_below_folder_fill =
+      IconData(0x103430, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol text.below.photo
   static const IconData sf_text_below_photo =
       IconData(0x100CB1, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -23872,6 +26126,18 @@ class SFIcons {
   static const IconData sf_text_justify_trailing =
       IconData(0x101241, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol text.line.2.summary
+  static const IconData sf_text_line_2_summary =
+      IconData(0x102994, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol text.line.2.summary.badge.xmark
+  static const IconData sf_text_line_2_summary_badge_xmark =
+      IconData(0x10302D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol text.line.3.summary
+  static const IconData sf_text_line_3_summary =
+      IconData(0x10291F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol text.line.first.and.arrowtriangle.forward
   static const IconData sf_text_line_first_and_arrowtriangle_forward =
       IconData(0x10163F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -23887,6 +26153,18 @@ class SFIcons {
   /// IconData for SF Symbol text.magnifyingglass
   static const IconData sf_text_magnifyingglass =
       IconData(0x100B65, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol text.pad.header
+  static const IconData sf_text_pad_header =
+      IconData(0x1004D5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol text.pad.header.badge.clock
+  static const IconData sf_text_pad_header_badge_clock =
+      IconData(0x103011, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol text.pad.header.badge.plus
+  static const IconData sf_text_pad_header_badge_plus =
+      IconData(0x1008D9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol text.page
   static const IconData sf_text_page =
@@ -23912,6 +26190,14 @@ class SFIcons {
   static const IconData sf_text_quote =
       IconData(0x1002FF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol text.rectangle
+  static const IconData sf_text_rectangle =
+      IconData(0x103435, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol text.rectangle.fill
+  static const IconData sf_text_rectangle_fill =
+      IconData(0x103436, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol text.rectangle.page
   static const IconData sf_text_rectangle_page =
       IconData(0x100A7D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -23923,6 +26209,10 @@ class SFIcons {
   /// IconData for SF Symbol text.redaction
   static const IconData sf_text_redaction =
       IconData(0x1009CE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol text.square.filled
+  static const IconData sf_text_square_filled =
+      IconData(0x1031AD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol text.viewfinder
   static const IconData sf_text_viewfinder =
@@ -24000,6 +26290,10 @@ class SFIcons {
   static const IconData sf_theatermasks_fill =
       IconData(0x100EA8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol thermometer.and.ellipsis
+  static const IconData sf_thermometer_and_ellipsis =
+      IconData(0x1034A8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol thermometer.and.liquid.waves
   static const IconData sf_thermometer_and_liquid_waves =
       IconData(0x101033, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -24016,6 +26310,10 @@ class SFIcons {
   /// IconData for SF Symbol thermometer.brakesignal
   static const IconData sf_thermometer_brakesignal =
       IconData(0x101035, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol thermometer.gauge.open
+  static const IconData sf_thermometer_gauge_open =
+      IconData(0x1030A0, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol thermometer.high
   static const IconData sf_thermometer_high =
@@ -24061,6 +26359,10 @@ class SFIcons {
   static const IconData sf_thermometer_sun_fill =
       IconData(0x10099C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol thermometer.tirepressure
+  static const IconData sf_thermometer_tirepressure =
+      IconData(0x102FE9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol thermometer.transmission
   static const IconData sf_thermometer_transmission =
       IconData(0x101281, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -24081,9 +26383,25 @@ class SFIcons {
   static const IconData sf_thermometer_variable_and_figure_circle_fill =
       IconData(0x101DCB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol thermometer.variable.badge.clock
+  static const IconData sf_thermometer_variable_badge_clock =
+      IconData(0x10340D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol thermometer.variable.badge.play
+  static const IconData sf_thermometer_variable_badge_play =
+      IconData(0x10340E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol ticket
   static const IconData sf_ticket =
       IconData(0x100A83, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol ticket.circle
+  static const IconData sf_ticket_circle =
+      IconData(0x103559, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol ticket.circle.fill
+  static const IconData sf_ticket_circle_fill =
+      IconData(0x10355A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol ticket.fill
   static const IconData sf_ticket_fill =
@@ -24225,6 +26543,14 @@ class SFIcons {
   static const IconData sf_tram =
       IconData(0x100746, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol tram.card
+  static const IconData sf_tram_card =
+      IconData(0x10301C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol tram.card.fill
+  static const IconData sf_tram_card_fill =
+      IconData(0x10301D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol tram.circle
   static const IconData sf_tram_circle =
       IconData(0x100C9B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -24340,6 +26666,14 @@ class SFIcons {
   /// IconData for SF Symbol tray.and.arrow.up.fill
   static const IconData sf_tray_and_arrow_up_fill =
       IconData(0x100226, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol tray.badge
+  static const IconData sf_tray_badge =
+      IconData(0x1030EC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol tray.badge.fill
+  static const IconData sf_tray_badge_fill =
+      IconData(0x1030ED, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol tray.circle
   static const IconData sf_tray_circle =
@@ -24489,6 +26823,14 @@ class SFIcons {
   static const IconData sf_truck_pickup_side_and_exclamationmark_fill =
       IconData(0x101972, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol truck.pickup.side.arrow.left.and.right
+  static const IconData sf_truck_pickup_side_arrow_left_and_right =
+      IconData(0x102EAB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol truck.pickup.side.arrow.left.and.right.fill
+  static const IconData sf_truck_pickup_side_arrow_left_and_right_fill =
+      IconData(0x102EAC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol truck.pickup.side.arrowtriangle.down
   static const IconData sf_truck_pickup_side_arrowtriangle_down =
       IconData(0x101977, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -24538,6 +26880,16 @@ class SFIcons {
   /// IconData for SF Symbol truck.pickup.side.hill.down
   static const IconData sf_truck_pickup_side_hill_down =
       IconData(0x101986, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol truck.pickup.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle
+  static const IconData
+      sf_truck_pickup_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle =
+      IconData(0x102F23, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol truck.pickup.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill
+  static const IconData
+      sf_truck_pickup_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle_fill =
+      IconData(0x102F24, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol truck.pickup.side.hill.down.fill
   static const IconData sf_truck_pickup_side_hill_down_fill =
@@ -24795,9 +27147,21 @@ class SFIcons {
   static const IconData sf_umbrella =
       IconData(0x100655, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol umbrella.circle
+  static const IconData sf_umbrella_circle =
+      IconData(0x10304D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol umbrella.circle.fill
+  static const IconData sf_umbrella_circle_fill =
+      IconData(0x10304E, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol umbrella.fill
   static const IconData sf_umbrella_fill =
       IconData(0x100656, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol umbrella.gauge.open
+  static const IconData sf_umbrella_gauge_open =
+      IconData(0x10309B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol umbrella.percent
   static const IconData sf_umbrella_percent =
@@ -24807,9 +27171,21 @@ class SFIcons {
   static const IconData sf_umbrella_percent_fill =
       IconData(0x100E31, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol umbrella.sensor.tag.radiowaves.left.and.right
+  static const IconData sf_umbrella_sensor_tag_radiowaves_left_and_right =
+      IconData(0x103043, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol umbrella.sensor.tag.radiowaves.left.and.right.fill
+  static const IconData sf_umbrella_sensor_tag_radiowaves_left_and_right_fill =
+      IconData(0x103044, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol underline
   static const IconData sf_underline =
       IconData(0x100155, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol underline.double
+  static const IconData sf_underline_double =
+      IconData(0x10340A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol v.circle
   static const IconData sf_v_circle =
@@ -24826,6 +27202,10 @@ class SFIcons {
   /// IconData for SF Symbol v.square.fill
   static const IconData sf_v_square_fill =
       IconData(0x1000BF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol vent.heat.waves.upward
+  static const IconData sf_vent_heat_waves_upward =
+      IconData(0x103145, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol vial.viewfinder
   static const IconData sf_vial_viewfinder =
@@ -24967,6 +27347,14 @@ class SFIcons {
   static const IconData sf_vision_pro_and_arrow_forward_fill =
       IconData(0x101CD5, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol vision.pro.badge.checkmark
+  static const IconData sf_vision_pro_badge_checkmark =
+      IconData(0x10326C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol vision.pro.badge.checkmark.fill
+  static const IconData sf_vision_pro_badge_checkmark_fill =
+      IconData(0x10326D, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol vision.pro.badge.exclamationmark
   static const IconData sf_vision_pro_badge_exclamationmark =
       IconData(0x101DC7, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -25082,6 +27470,22 @@ class SFIcons {
   /// IconData for SF Symbol wallet.pass.fill
   static const IconData sf_wallet_pass_fill =
       IconData(0x1007FF, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol wallet.sensor.tag.radiowaves.left.and.right
+  static const IconData sf_wallet_sensor_tag_radiowaves_left_and_right =
+      IconData(0x103035, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol wallet.sensor.tag.radiowaves.left.and.right.fill
+  static const IconData sf_wallet_sensor_tag_radiowaves_left_and_right_fill =
+      IconData(0x103036, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol wand.and.outline
+  static const IconData sf_wand_and_outline =
+      IconData(0x102E0A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol wand.and.outline.inverse
+  static const IconData sf_wand_and_outline_inverse =
+      IconData(0x102E0B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol wand.and.rays
   static const IconData sf_wand_and_rays =
@@ -25272,6 +27676,10 @@ class SFIcons {
   static const IconData sf_waveform_and_person_filled =
       IconData(0x1020D3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol waveform.badge.checkmark
+  static const IconData sf_waveform_badge_checkmark =
+      IconData(0x102DDD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol waveform.badge.exclamationmark
   static const IconData sf_waveform_badge_exclamationmark =
       IconData(0x100EFD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -25292,6 +27700,10 @@ class SFIcons {
   static const IconData sf_waveform_badge_plus =
       IconData(0x100E36, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol waveform.badge.xmark
+  static const IconData sf_waveform_badge_xmark =
+      IconData(0x102DDE, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol waveform.circle
   static const IconData sf_waveform_circle =
       IconData(0x100788, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -25299,6 +27711,14 @@ class SFIcons {
   /// IconData for SF Symbol waveform.circle.fill
   static const IconData sf_waveform_circle_fill =
       IconData(0x100789, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol waveform.low
+  static const IconData sf_waveform_low =
+      IconData(0x1032B8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol waveform.mid
+  static const IconData sf_waveform_mid =
+      IconData(0x1032B9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol waveform.path
   static const IconData sf_waveform_path =
@@ -25316,6 +27736,10 @@ class SFIcons {
   static const IconData sf_waveform_path_ecg =
       IconData(0x10071F, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
+  /// IconData for SF Symbol waveform.path.ecg.magnifyingglass
+  static const IconData sf_waveform_path_ecg_magnifyingglass =
+      IconData(0x102D4A, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
   /// IconData for SF Symbol waveform.path.ecg.rectangle
   static const IconData sf_waveform_path_ecg_rectangle =
       IconData(0x1007EA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -25323,6 +27747,26 @@ class SFIcons {
   /// IconData for SF Symbol waveform.path.ecg.rectangle.fill
   static const IconData sf_waveform_path_ecg_rectangle_fill =
       IconData(0x1007EB, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol waveform.path.ecg.text
+  static const IconData sf_waveform_path_ecg_text =
+      IconData(0x102DDA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol waveform.path.ecg.text.clipboard
+  static const IconData sf_waveform_path_ecg_text_clipboard =
+      IconData(0x102D4B, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol waveform.path.ecg.text.clipboard.fill
+  static const IconData sf_waveform_path_ecg_text_clipboard_fill =
+      IconData(0x102D4C, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol waveform.path.ecg.text.page
+  static const IconData sf_waveform_path_ecg_text_page =
+      IconData(0x100CFC, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol waveform.path.ecg.text.page.fill
+  static const IconData sf_waveform_path_ecg_text_page_fill =
+      IconData(0x100CFD, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol waveform.slash
   static const IconData sf_waveform_slash =
@@ -25375,6 +27819,10 @@ class SFIcons {
   /// IconData for SF Symbol wifi
   static const IconData sf_wifi =
       IconData(0x100647, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol wifi.badge.lock
+  static const IconData sf_wifi_badge_lock =
+      IconData(0x103537, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol wifi.circle
   static const IconData sf_wifi_circle =
@@ -25649,10 +28097,6 @@ class SFIcons {
   static const IconData sf_x_square_fill =
       IconData(0x1000C3, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
-  /// IconData for SF Symbol x.squareroot
-  static const IconData sf_x_squareroot =
-      IconData(0x1004EA, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
-
   /// IconData for SF Symbol xbox.logo
   static const IconData sf_xbox_logo =
       IconData(0x100F89, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
@@ -25688,6 +28132,14 @@ class SFIcons {
   /// IconData for SF Symbol xmark.circle
   static const IconData sf_xmark_circle =
       IconData(0x100060, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol xmark.circle.badge.airplane
+  static const IconData sf_xmark_circle_badge_airplane =
+      IconData(0x1032C8, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
+
+  /// IconData for SF Symbol xmark.circle.badge.airplane.fill
+  static const IconData sf_xmark_circle_badge_airplane_fill =
+      IconData(0x1032C9, fontFamily: _kFontFamily, fontPackage: _kFontPackage);
 
   /// IconData for SF Symbol xmark.circle.fill
   static const IconData sf_xmark_circle_fill =

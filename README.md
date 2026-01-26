@@ -1,6 +1,6 @@
 # Flutter SFIcon
 
-Render SF Symbols on both platforms simuliar to regular `Icon` widget. Supports weight and latest SF Symbols version 6.0
+Render SF Symbols on both platforms simuliar to regular `Icon` widget. Supports weight and latest SF Symbols version 7.1
 Icons are tree shakable. Keep in mind, that `SFIcon` widget is based on `Text`.
 
 ## Install

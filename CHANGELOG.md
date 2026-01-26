@@ -1,3 +1,7 @@
+## 1.3.0 — January 26, 2026
+
+-   Upgrade to SF Symbols 7.1
+
 ## 1.2.1 — July 15, 2025
 
 -   Resolving [#4](https://github.com/gle6as/flutter_sficon/issues/4). Thanks to [just-doit](https://github.com/just-doit)
