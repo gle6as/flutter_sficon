@@ -1,6 +1,6 @@
 name: flutter_sficon
-description: "Cross-platform Flutter plugin for rendering tree shakable SF Symbols version 7.1. inside custom widget, based on Text widget."
-version: 1.3.0
+description: "SF Symbols 27 as tree-shakable vector icons on every platform, with all weights. No bundled font, so iOS builds pass Apple's font check."
+version: 2.0.0
 repository: https://github.com/gle6as/flutter_sficon
 
 platforms:
@@ -12,8 +12,8 @@ platforms:
   windows:
 
 environment:
-  sdk: ">=3.2.3 <4.0.0"
-  flutter: ">=1.17.0"
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.0"
 
 dependencies:
   flutter:
@@ -24,8 +24,3 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^2.0.0
 
-flutter:
-  fonts:
-    - family: sficons
-      fonts:
-        - asset: lib/fonts/sficons.ttf
